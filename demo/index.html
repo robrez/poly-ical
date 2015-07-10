@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+  <head>
+    <title>poly-ical demo</title>
+
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="../../paper-styles/paper-styles.html">
+    <link rel="import" href="../../paper-input/paper-input.html">
+    <link rel="import" href="../poly-ical.html">
+
+    <style is="custom-style">
+  
+    body {
+      font-family: 'Roboto', 'Noto', sans-serif;
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+      background-color: #eee;
+    }
+
+    .content {
+      padding: 24px;
+    }
+  
+    .card {
+      background-color: white;
+      padding: 24px;
+      margin-right: 24px;
+      margin-bottom: 24px;
+      min-width: 200px;
+      @apply(--shadow-elevation-2dp);
+    }
+
+    .event {
+      padding: 16px;
+    }
+
+    .headline {
+      @apply(--paper-font-headline);
+    }
+  
+    .title {
+      @apply(--paper-font-title);
+    }
+  
+    .toolbar {
+      padding-left: 24px;
+      height: 72px;
+      background: var(--default-primary-color);
+      color: var(--text-primary-color);
+      @apply(--paper-font-display1);
+    }
+
+    .error {
+      padding: 8px;
+      color: var(--paper-red-700);
+    }
+
+    .label {
+      min-width: 72px;
+    }
+    </style>
+
+  </head>
+  <body>
+    <template is="dom-bind" id="demo">
+      <div class="toolbar layout horizontal center">ICAL to JSON</div>
+
+      <div class="content center-justified layout">
+  
+
+        <poly-ical
+            id="ical"
+            url="[[url]]"
+            last-error="{{lastError}}"
+            debounce-duration="500"
+            verbose="true"
+            calendar="{{calendar}}">
+        </poly-ical>
+
+        <div class="card">
+          <span>ICAL Endpoint</span>
+          <paper-input label="url" value="{{url}}"></paper-input>
+          <div class="error">{{lastError.error}}</div>
+        </div>
+
+        <div class="card">
+          <div class="headline">{{calendar.properties.xWrCalname}}</div>
+          <div>{{calendar.properties.version}}</div>
+        </div>
+
+        <div class="card">
+          <template is="dom-repeat" items="[[calendar.events]]" as="event">
+            <div class="event">
+              <div class="title">[[event.summary]]</div>
+              <div class="layout horizontal">
+                <span class="label">Start: &nbsp; </span>
+                <span>[[event.dtstart.value]]</span>
+              </div>
+              <div class="layout horizontal">
+                <span class="label">End: &nbsp; </span>
+                <span>[[event.dtend.value]]</span>
+              </div>
+              <div hidden$="[[!event.url]]" class="layout horizontal">
+                <span class="url">URL: &nbsp; </span>
+                <a href="[[event.url]]">[[event.url]]</a>
+              </div>
+            </div>
+          </template>
+        </div>
+      </div>
+    </template>
+  </body>
+
+
+  <script>
+
+  (function(document) {
+    'use strict';
+
+    window.addEventListener('WebComponentsReady', function() {
+
+      var demo = document.querySelector('#demo');
+      demo.url = "oscon.ics";
+
+      var ical = document.querySelector('#ical');
+      ical.addEventListener("error", function(e) { console.log(e); });
+    });
+
+  })(document);
+
+  </script>
+</html>

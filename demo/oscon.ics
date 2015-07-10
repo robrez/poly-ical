@@ -1,0 +1,3759 @@
+BEGIN:VCALENDAR
+X-WR-CALNAME:OSCON 2015 public Schedule
+VERSION:2.0
+PRODID:Expectnation
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T123000
+DTSTART;TZID=US/Pacific:20150720T090000
+DTSTAMP:20150623T144812
+LOCATION:Portland 251
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41805
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-09:00--41805
+SUMMARY:Building apps that run everywhere with HTML5, CSS, JavaScript, a
+ nd Apache Cordova
+DESCRIPTION:Presented by Jonathan Stark (Jonathan Stark Consulting). It’
+ s a fact: if you have a working knowledge of HTML, CSS, and JavaScript, 
+ you already have the tools you need to develop your own web or hybrid ap
+ ps for mobile. In this session, you’ll learn how to use these open sourc
+ e web technologies to design and build apps for the iPhone, iPad, Androi
+ d, etc. on the development platform of your choice—without using Objecti
+ ve-C, Swift, or Java.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T170000
+DTSTART;TZID=US/Pacific:20150720T133000
+DTSTAMP:20150623T145513
+LOCATION:Portland 251
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42506
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-13:30--42506
+SUMMARY:Introduction to microservices
+DESCRIPTION:Presented by Chris Richardson (Chris Richardson Consulting, 
+ Inc). In this tutorial, you will learn about the motivations for using t
+ he microservice architecture and how it compares with more traditional m
+ onolithic architecture. We discuss the benefits and drawbacks of microse
+ rvices. You will learn about strategies for refactoring a monolithic app
+ lication into a set of microservices.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T123000
+DTSTART;TZID=US/Pacific:20150721T090000
+DTSTAMP:20150521T190546
+LOCATION:Portland 251
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41041
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-09:00--41041
+SUMMARY:Microservices with Spring Cloud and Netflix OSS
+DESCRIPTION:Presented by Spencer Gibb (Pivotal). Building an application
+  using microservices and don't know where to start?  How do services fin
+ d each other?  How do I configure many instances of each service?  How d
+ o I see what's going on with my services? If you've asked these question
+ s, this session will give you some answers using Spring Cloud and Netfli
+ x OSS to create microservices that are robust, discoverable, scalable & 
+ configurable.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T170000
+DTSTART;TZID=US/Pacific:20150721T133000
+DTSTAMP:20150507T183754
+LOCATION:Portland 251
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/40212
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-13:30--40212
+SUMMARY:Web security essentials
+DESCRIPTION:Presented by Eli White (php[architect]). This session will e
+ xpose you to a broad range of web security vulnerabilities and their sol
+ utions. We'll cover the basics such as XSS, CSRF, SQL Injection, and cli
+ ckjacking.  We will also go into depth on issues of session management, 
+ password security, two-factor authentication, and much much more!
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T112000
+DTSTART;TZID=US/Pacific:20150722T104000
+DTSTAMP:20150428T203926
+LOCATION:Portland 251
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/40470
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-10:40--40470
+SUMMARY:The paradox of technology choice
+DESCRIPTION:Presented by Michelle Brush (Cerner Corporation). The number
+  of frameworks, patterns, platforms, and APIs available has exploded.  D
+ efining the architecture of a system requires navigating a sea of option
+ s. This talk frames architectural decisions in the context of behavioral
+  economics. It covers how good or bad choice architecture can impact the
+  software architecture and how organizations can guide engineers toward 
+ better choices.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T121000
+DTSTART;TZID=US/Pacific:20150722T113000
+DTSTAMP:20150629T213625
+LOCATION:Portland 251
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42001
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-11:30--42001
+SUMMARY:Microservices. Microservices everywhere!
+DESCRIPTION:Presented by Jérôme Petazzoni (Docker Inc.). Thanks to Docke
+ r and containers, microservices architectures are no longer reserved to 
+ large organizations like Netflix or Amazon. Let's review the benefits of
+  those architectures, for Devs and Ops, in projects big and small, and h
+ ow to realize them with the open source container technology available t
+ oday.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T142000
+DTSTART;TZID=US/Pacific:20150722T134000
+DTSTAMP:20150505T222645
+LOCATION:Portland 251
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42294
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-13:40--42294
+SUMMARY:Space, time, and state
+DESCRIPTION:Presented by Amy Palamountain (GitHub). Reactive programming
+  is the trendy new way to build desktop and mobile apps. Reacting to use
+ r input over time can prove to be difficult, because of the enormous amo
+ unt of state we need to keep track of. In this talk we will discover how
+  to improve our reactive applications by removing the need for state ent
+ irely. This allows us to clearly reason about, and react to, user input 
+ over time.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T151000
+DTSTART;TZID=US/Pacific:20150722T143000
+DTSTAMP:20150505T232848
+LOCATION:Portland 251
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42073
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-14:30--42073
+SUMMARY:Designing for failure: How Uber scaled its realtime market platf
+ orm
+DESCRIPTION:Presented by Matt Ranney (Uber). As Uber moves into new mark
+ ets with new services, designing for high availability and scalability p
+ resents some interesting challenges. Even brief outages in the service a
+ re very costly, with real-world impact on people's lives. This talk will
+  cover the Uber architecture and how it handles every failure we can thi
+ nk of.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T165000
+DTSTART;TZID=US/Pacific:20150722T161000
+DTSTAMP:20150506T205802
+LOCATION:Portland 251
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41359
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-16:10--41359
+SUMMARY:Java-based microservices, containers, Kubernetes - how to
+DESCRIPTION:Presented by Ray Tsang (Google). Join this session to learn 
+ how to create a Java-based microservice using Spring Boot, containerize 
+ it using Maven plugins, and subsequently deploy a fleet of microservices
+  and dependent components such as Redis using Kubernetes.  Toward the en
+ d of the session, let's take a look at how we can apply the same pattern
+ s to other runtimes, such as Vert.x and Grails.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T174000
+DTSTART;TZID=US/Pacific:20150722T170000
+DTSTAMP:20150506T000139
+LOCATION:Portland 251
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41816
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-17:00--41816
+SUMMARY:Continuous delivery and large microservice architectures: Reflec
+ tions on Ioncannon
+DESCRIPTION:Presented by Kevin Scaldeferri (New Relic). Continuous deliv
+ ery of a monolith is easy - just automate, automate, automate! But what 
+ challenges will you run into applying the same ideas to 300 microservice
+ s? Come and find out!
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T112000
+DTSTART;TZID=US/Pacific:20150723T104000
+DTSTAMP:20150504T175132
+LOCATION:Portland 251
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42187
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-10:40--42187
+SUMMARY:Building Release Pipelines on the Open Web
+DESCRIPTION:Presented by Ryan Jarvinen (Red Hat). Learn how to build wor
+ kflows that can help automate each part of your project's release lifecy
+ cle (build, test, review, merge, deployment, reporting, etc). We'll take
+  a look at common language-based build tools, and learn how to set up Je
+ nkins and/or Travis for build work and continuous integration (CI). Then
+ , we'll compare various cloud deployment targets and learn about continu
+ ous delivery (CD).
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T121000
+DTSTART;TZID=US/Pacific:20150723T113000
+DTSTAMP:20150506T200616
+LOCATION:Portland 251
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41888
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-11:30--41888
+SUMMARY:Refactoring systems with confidence
+DESCRIPTION:Presented by Jesse Toth (GitHub), Nathan Witmer (GitHub). Th
+ is talk will tell the story of a large-scale refactoring of our permissi
+ ons model at GitHub. We’ll explain the problem, our solution, and then g
+ o over the tools we built, the techniques we used, and the lessons we le
+ arned while replacing this critical piece of our application live, side-
+ by-side, and in production.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T142000
+DTSTART;TZID=US/Pacific:20150723T134000
+DTSTAMP:20150501T204838
+LOCATION:Portland 251
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/40210
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-13:40--40210
+SUMMARY:Stop writing Javascript frameworks
+DESCRIPTION:Presented by Joseph Gregorio (Google). JavaScript frameworks
+  seem like death and taxes; inevitable and unavoidable. But that's not t
+ he way it needs to be, and actually, it must stop. A talk based on the z
+ er framework manifesto: http://bitworking.org/news/2014/05/zero_framewor
+ k_manifesto
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T151000
+DTSTART;TZID=US/Pacific:20150723T143000
+DTSTAMP:20150501T191433
+LOCATION:Portland 251
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/40373
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-14:30--40373
+SUMMARY:Reactive front end
+DESCRIPTION:Presented by Martin Gontovnikas (Auth0). There's been a lot 
+ of talk about reactive programming lately, but nobody really knows exact
+ ly what it is. I'll first talk a little bit about what reactive programm
+ ing is, and then we'll dive into practical examples on how to use it wit
+ h any front-end technology and particularly with AngularJS. We'll see ho
+ w beautiful and clean our code can be when we use reactive code in the f
+ ront end.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T165000
+DTSTART;TZID=US/Pacific:20150723T161000
+DTSTAMP:20150617T053345
+LOCATION:Portland 251
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/40413
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-16:10--40413
+SUMMARY:Test-driven repair
+DESCRIPTION:Presented by Christopher Neugebauer (@chrisjrn). Test-driven
+  development's great, but what happens when you find yourself working on
+  code where automated testing took a back seat to being shipped? This ta
+ lk looks at techniques for automated testing of late-stage or even produ
+ ction code, and how to use this to fix bugs in your code. Testing late i
+ n life isn't a lost cause any more!
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T174000
+DTSTART;TZID=US/Pacific:20150723T170000
+DTSTAMP:20150505T204027
+LOCATION:Portland 251
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/43596
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-17:00--43596
+SUMMARY:Choose boring technology
+DESCRIPTION:Presented by Dan  McKinley (Stripe). How do you choose the t
+ echnology to run your business? You should use the best tools for the jo
+ b, of course. But the precise definitions of the words "best" and "job" 
+ are tricky. This talk gives these terms shape, and introduces a framewor
+ k for thinking about new technology rigorously, holistically, and system
+ atically.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150724T104000
+DTSTART;TZID=US/Pacific:20150724T100000
+DTSTAMP:20150505T172112
+LOCATION:Portland 251
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41674
+UID:http://www.oscon.com/open-source-2015--s2015-07-24-10:00--41674
+SUMMARY:Migrating PHP runtimes to HHVM: Taking the plunge
+DESCRIPTION:Presented by Joe Marrama (Box). Changing the engine that run
+ s a large PHP application is fraught with hidden dangers but comes with 
+ large rewards. In this talk, I'll detail the process Box went through to
+  safely make the transition to running our production site on top of HHV
+ M.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150724T115000
+DTSTART;TZID=US/Pacific:20150724T111000
+DTSTAMP:20150428T173714
+LOCATION:Portland 251
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42279
+UID:http://www.oscon.com/open-source-2015--s2015-07-24-11:10--42279
+SUMMARY:Programming single-page applications
+DESCRIPTION:Presented by Brian Capouch (Saint Josephs College), Nathan S
+ amano (Saint Joseph's College (Indiana)), Craig Austgen (Saint Joseph's 
+ College). Single-page web applications offer users a rich, responsive ex
+ perience, utilizing the browser as an application platform. We provide a
+  framework-agnostic introduction to programming single-page applications
+ , considered generically.  Server- and client-side routing, module API s
+ urfacing, bookmarking, and SEO strategies must be carefully managed in a
+ n SPA environment.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T123000
+DTSTART;TZID=US/Pacific:20150720T090000
+DTSTAMP:20150623T144812
+LOCATION:Portland 252
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42148
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-09:00--42148
+SUMMARY:Decorating drones: Using drones to delve deeper into intermediat
+ e Python
+DESCRIPTION:Presented by Matt Harrison (MetaSnake). Got the basics of Py
+ thon down but want to dig in a little more? Have you wondered about func
+ tional programming, closures, decorators, context managers, generators, 
+ or list comprehensions, and when you should use them and how to test the
+ m? This hands-on tutorial will cover these intermediate subjects in deta
+ il, by applying them to programming a drone.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T170000
+DTSTART;TZID=US/Pacific:20150720T133000
+DTSTAMP:20150623T145513
+LOCATION:Portland 252
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41534
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-13:30--41534
+SUMMARY:Cross-device, cross-platform: Designing for the entire mobile un
+ iverse
+DESCRIPTION:Presented by Paris Buttfield-Addison (Secret Lab Pty. Ltd.),
+  Christopher Neugebauer (@chrisjrn). It’s a big world for small devices,
+  and you need to be able to design not just for Android and iPhone, but 
+ the mobile world beyond as well. Over the course of this tutorial, you’l
+ l learn critical skills in thinking about problems in a mobile context, 
+ how to apply these skills to address app design problems on any mobile p
+ latform, and how to design for future improvement.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T123000
+DTSTART;TZID=US/Pacific:20150721T090000
+DTSTAMP:20150701T180416
+LOCATION:Portland 252
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42004
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-09:00--42004
+SUMMARY:Container orchestration at scale
+DESCRIPTION:Presented by Aaron Huslage (Docker). This is not a typo: we 
+ are going to demonstrate and compare different orchestration systems, fo
+ r scales both big and small. Within the span of this tutorial, we will b
+ uild clusters together using open source software like Swarm, Mesos, and
+  others.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T170000
+DTSTART;TZID=US/Pacific:20150721T133000
+DTSTAMP:20150521T193040
+LOCATION:Portland 252
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/40461
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-13:30--40461
+SUMMARY:Git for teams
+DESCRIPTION:Presented by Emma Jane Hogbin Westby (Git for Teams). You've
+  dabbled a little in version control using Git. You can follow along wit
+ h the various tutorials you've found online. But now you've been asked t
+ o implement a work flow strategy and you're not really sure how (or wher
+ e) to start. You have a lot of choices, we'll help you pick the right on
+ e for your project.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T112000
+DTSTART;TZID=US/Pacific:20150722T104000
+DTSTAMP:20150501T203302
+LOCATION:Portland 252
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41539
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-10:40--41539
+SUMMARY:Create beautiful dashboards from many sources of data using open
+  technologies
+DESCRIPTION:Presented by Jonas Rosland (EMC), Kate Greenough (EMC). Ther
+ e are tons of metrics that can be measured out there. Facebook likes, Tw
+ itter followers, website hits, database queries, number of VMs, cheapest
+  lunch in the neighborhood, and many more. What if you could collect tho
+ se metrics and choose the ones you'd like to present into a nice dashboa
+ rd? And perhaps add easy analytics to it? Learn how to use Dashing toget
+ her with platforms like Keen.io.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T121000
+DTSTART;TZID=US/Pacific:20150722T113000
+DTSTAMP:20150505T211856
+LOCATION:Portland 252
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42428
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-11:30--42428
+SUMMARY:Visualizing flux: Time travel, torque, and temporal maps
+DESCRIPTION:Presented by Aurelia Moser (CartoDB). The historical version
+ ing of maps defines some of the most fascinating social, political, and 
+ environmental flux of precedent. Everything from the eruption of post-Wo
+ rld Cup tweets, to the migration patterns of mammals, can be mapped with
+  OSS. This talk will cover time travel as it can be viewed in visualizat
+ ions: the ways we partner time-series data with interactive maps @CartoD
+ B.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T142000
+DTSTART;TZID=US/Pacific:20150722T134000
+DTSTAMP:20150505T230722
+LOCATION:Portland 252
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41864
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-13:40--41864
+SUMMARY:Talking to non-technical people about data (especially if they’r
+ e your boss)
+DESCRIPTION:Presented by Linda Powell (Consumer Financial Protection Bur
+ eau). Everyone at OSCON knows that good data coupled with modern open so
+ urce technology can revolutionize business. But does senior management k
+ now? This presentation is about how to convince very powerful people wit
+ h limited tech literacy that investing in good data and good data techno
+ logy helps promote the organization’s mission.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T151000
+DTSTART;TZID=US/Pacific:20150722T143000
+DTSTAMP:20150428T182048
+LOCATION:Portland 252
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42200
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-14:30--42200
+SUMMARY:Open source big graph analytics on Neo4j with Apache Spark
+DESCRIPTION:Presented by Kenny Bastani (Digital Insight). Fast and scala
+ ble analysis of big data has become a critical competitive advantage for
+  companies. There are open source tools like Apache Hadoop and Apache Sp
+ ark that are providing opportunities for companies to solve these big da
+ ta problems in a scalable way. Platforms like these have become the foun
+ dation of the big data analysis movement.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T165000
+DTSTART;TZID=US/Pacific:20150722T161000
+DTSTAMP:20150501T222613
+LOCATION:Portland 252
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41489
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-16:10--41489
+SUMMARY:Solr for data science
+DESCRIPTION:Presented by Grant Ingersoll (Lucidworks). Search engine tec
+ hnology is rapidly evolving from keyword-based lookups, to a highly soph
+ isticated ranking engine capable of incorporating many different feature
+ s across complex data types.  With the latest changes in Solr and Lucene
+ , it is now possible to ask more interesting questions of multi-structur
+ ed content than ever before, making them indispensable tools in the data
+  science toolbox.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T174000
+DTSTART;TZID=US/Pacific:20150722T170000
+DTSTAMP:20150501T205638
+LOCATION:Portland 252
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42290
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-17:00--42290
+SUMMARY:Data modeling Cassandra using CQL3
+DESCRIPTION:Presented by Mike Biglan (Twenty Ideas), Elijah Hamovitz (An
+ alytic Spot). CQL3 has a relational-database-centric abstraction that hi
+ des many key details of the underlying storage. Though CQL can be an eff
+ icient and convenient tool to use when querying, knowing how CQL actuall
+ y maps to Cassandra's storage structure is key to being able to create s
+ calable and flexible data models.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T112000
+DTSTART;TZID=US/Pacific:20150723T104000
+DTSTAMP:20150505T215956
+LOCATION:Portland 252
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41579
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-10:40--41579
+SUMMARY:Microservices, containers, and machine learning
+DESCRIPTION:Presented by Paco Nathan (O'Reilly Media). Herein, an open s
+ ource developer community considers itself _algorithmically_. This proje
+ ct shows how to surface data insights from the developer email forums fo
+ r just about any Apache open source project. It leverages machine learni
+ ng and advanced analytics in Apache Spark, but also makes use of Docker 
+ containers for standalone NLP services.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T121000
+DTSTART;TZID=US/Pacific:20150723T113000
+DTSTAMP:20150506T215102
+LOCATION:Portland 252
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41967
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-11:30--41967
+SUMMARY:Open source data science with NoSQL and R
+DESCRIPTION:Presented by Nicole White (Neo4j). Most data scientists will
+  tell you they spend a greater percent of their time munging data than t
+ hey do building predictive models. In this session, learn how to spend l
+ ess time writing queries and more time building models, by combining the
+  flexibility of a NoSQL graph database with R—an open source statistical
+  programming language—to analyze Twitter data in a reproducible, low-eff
+ ort workflow.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T142000
+DTSTART;TZID=US/Pacific:20150723T134000
+DTSTAMP:20150506T182549
+LOCATION:Portland 252
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42111
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-13:40--42111
+SUMMARY:Measuring big data - understanding data by usage
+DESCRIPTION:Presented by Charles Smith (Netflix). We are collecting incr
+ easing amounts of data to analyze, so we can understand how to better se
+ rve our customers.  But how do you know that the data collected is usefu
+ l or even being used?  Using Netflix’s experience building data platform
+ s, we will talk about how gaining insight into the use of your data can 
+ improve your own platform.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T151000
+DTSTART;TZID=US/Pacific:20150723T143000
+DTSTAMP:20150506T002836
+LOCATION:Portland 252
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41616
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-14:30--41616
+SUMMARY:Scalable graph analysis with Apache Giraph and Spark GraphX
+DESCRIPTION:Presented by Roman Shaposhnik (Pivotal Inc.). Graph relation
+ ships are everywhere. In fact, more often than not, analyzing relationsh
+ ips between points in your datasets lets you extract more business value
+  from your data. This presentation will provide an introduction into two
+  of the most used Hadoop ecosystem projects in the area of scalable grap
+ h processing: Apache Giraph and Spark GraphX.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T165000
+DTSTART;TZID=US/Pacific:20150723T161000
+DTSTAMP:20150501T173726
+LOCATION:Portland 252
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41341
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-16:10--41341
+SUMMARY:Cassandra 3.0: improved productivity with JSON
+DESCRIPTION:Presented by Jonathan Ellis (DataStax, Inc). This session wi
+ ll cover the new features in Cassandra 3.0, including JSON support, user
+ -defined types, and global indexes. These allow engineers to deliver eve
+ n better performance and productivity in their application development.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T174000
+DTSTART;TZID=US/Pacific:20150723T170000
+DTSTAMP:20150428T221817
+LOCATION:Portland 252
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41146
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-17:00--41146
+SUMMARY:Database reliability engineering, modernizing the DBA role
+DESCRIPTION:Presented by Laine Campbell (Pythian), charity majors (Parse
+ /Facebook). IT is undergoing a revolution, and database administration i
+ s no exception. As Ops teams evolve to reliability engineers, developers
+  and traditional systems administrators find themselves diving into the 
+ world of the DBA. In this session, we take the model of site reliability
+  engineering and guide you through the components of the craft of DB arc
+ hitecture/operations in that context.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150724T104000
+DTSTART;TZID=US/Pacific:20150724T100000
+DTSTAMP:20150506T201351
+LOCATION:Portland 252
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42463
+UID:http://www.oscon.com/open-source-2015--s2015-07-24-10:00--42463
+SUMMARY:Beyond messaging: Enterprise dataflow with Apache NiFi
+DESCRIPTION:Presented by Joe Witt (Onyara Inc.). Dataflow is an often un
+ derestimated challenge in realizing the value of big data. Messaging-bas
+ ed approaches are fast and well understood, and solid open source option
+ s exist. However, this talk makes the case that transport-oriented messa
+ ging is not the right abstraction for large distributed enterprise data 
+ flow, and describes how Apache NiFi is designed to solve these problems.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150724T115000
+DTSTART;TZID=US/Pacific:20150724T111000
+DTSTAMP:20150428T170622
+LOCATION:Portland 252
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41650
+UID:http://www.oscon.com/open-source-2015--s2015-07-24-11:10--41650
+SUMMARY:Adventures in data science with Bash
+DESCRIPTION:Presented by Robert Aboukhalil (Cold Spring Harbor Laborator
+ y). In 2008, Nate Silver wowed the public by correctly predicting the ou
+ tcome of the U.S. elections in 49 out of 50 states. As it turns out, you
+  don't have to be a statistician to perform such analyses. In this talk,
+  I introduce the Bash scripting language and how it can be used to perfo
+ rm advanced number crunching.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T123000
+DTSTART;TZID=US/Pacific:20150720T090000
+DTSTAMP:20150521T190218
+LOCATION:Portland 255
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42203
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-09:00--42203
+SUMMARY:Docker 101: Introduction to Docker
+DESCRIPTION:Presented by Andrew Baker (Independent). Docker was one of l
+ ast year’s most talked about open source projects - but what is it? And 
+ what does it mean for deploying applications?  This tutorial will explai
+ n what Docker is and where it fits in with other deployment and configur
+ ation management techniques. Students will then learn the basics of work
+ ing with Docker containers, how to “dockerize” an app, and some emerging
+  best practices.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T170000
+DTSTART;TZID=US/Pacific:20150720T133000
+DTSTAMP:20150508T184332
+LOCATION:Portland 255
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42482
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-13:30--42482
+SUMMARY:Intro to React and effective design patterns
+DESCRIPTION:Presented by Brian Holt (Netflix). One of the new, hot libra
+ ries in the JavaScript world is React, and there is reason that it is ge
+ tting so much attention: it offers some productivity gains you will not 
+ believe. In this workshop, we will cover React at a high level and then 
+ get in and write some code.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T123000
+DTSTART;TZID=US/Pacific:20150721T090000
+DTSTAMP:20150629T231658
+LOCATION:Portland 255
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42342
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-09:00--42342
+SUMMARY:JSON at work: Schema, Search, and Transform
+DESCRIPTION:Presented by Tom Marrs (LivingSocial). Most modern web APIs 
+ prefer JSON because of its interoperability. All modern languages have e
+ xcellent JSON support, but large-scale environments often require more t
+ han simple serialization/de-serialization. This tutorial shows how to le
+ verage JSON Schema, Search, and Transform along with simple tooling to e
+ nhance a developer’s workflow to build elegant, powerful, and efficient 
+ applications.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T170000
+DTSTART;TZID=US/Pacific:20150721T133000
+DTSTAMP:20150702T191513
+LOCATION:Portland 255
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42529
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-13:30--42529
+SUMMARY:Taming microservices with CoreOS and Kubernetes
+DESCRIPTION:Presented by Kelsey Hightower (CoreOS). Microservices are ta
+ king over our production environments and a new approach to managing app
+ lications will be required in order to scale and address new challenges 
+ that arise. In this tutorial you'll take a hands-on approach to learning
+  how to solve these problems from the ground up with CoreOS, the contain
+ er optimized OS, and Kubernetes, the latest open source orchestration sy
+ stem for containers.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T112000
+DTSTART;TZID=US/Pacific:20150722T104000
+DTSTAMP:20150707T180509
+LOCATION:Portland 255
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42037
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-10:40--42037
+SUMMARY:Docker in production: Reality, not hype
+DESCRIPTION:Presented by Bridget Kromhout (DramaFever). DramaFever, the 
+ largest streaming video site for international content, uses AWS to powe
+ r its streaming video platform, and has been running Docker in productio
+ n since about October 2013 (well before it even went 1.0). This talk goe
+ s into detail about we use Docker to make development more consistent an
+ d deployment more repeatable.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T121000
+DTSTART;TZID=US/Pacific:20150722T113000
+DTSTAMP:20150617T210605
+LOCATION:Portland 255
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44987
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-11:30--44987
+SUMMARY:Building and running an open source programs office
+DESCRIPTION:Presented by Chris DiBona (Google), Chris Aniszczyk (Twitter
+ ), Chris Kelly (GitHub), Will Norris (Google), James Pearce (Facebook), 
+ Gianugo Rabellino (Microsoft). Join a discussion with representatives fr
+ om well-known tech companies to discuss the challenges of building and r
+ unning an open source office at scale.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T142000
+DTSTART;TZID=US/Pacific:20150722T134000
+DTSTAMP:20150428T203344
+LOCATION:Portland 255
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42332
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-13:40--42332
+SUMMARY:Scala at scale at Twitter
+DESCRIPTION:Presented by Travis Brown (Twitter, Inc.). Scala plays a cen
+ tral role in many parts of Twitter's infrastructure, and Twitter's open 
+ source projects are widely used in the Scala community. While Scala has 
+ brought many benefits to Twitter, its nature as a relatively young hybri
+ d OOP / FP language has also posed some challenges. This talk will provi
+ de an overview of how Twitter maintains one of the largest Scala codebas
+ es on the planet.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T151000
+DTSTART;TZID=US/Pacific:20150722T143000
+DTSTAMP:20150428T233405
+LOCATION:Portland 255
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41475
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-14:30--41475
+SUMMARY:High performance servers without the event loop
+DESCRIPTION:Presented by David Cheney (Canonical). The Go programming la
+ nguage lets you write high performance network servers without resorting
+  to event loops and callback spaghetti.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T165000
+DTSTART;TZID=US/Pacific:20150722T161000
+DTSTAMP:20150505T231736
+LOCATION:Portland 255
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41211
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-16:10--41211
+SUMMARY:Plate spinning: Modern concurrency in Python
+DESCRIPTION:Presented by Luciano Ramalho (Python.pro.br). Developments l
+ ike the `concurrent.futures` classes, coroutine delegation with `yield f
+ rom` and the `asyncio` module together represent a major new chapter in 
+ the evolution of Python, and are the best reasons to upgrade to Python 3
+ . This talk will show how these tools bring concurrent programming withi
+ n reach of even casual programmers, with dramatic boosts in throughput.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T174000
+DTSTART;TZID=US/Pacific:20150722T170000
+DTSTAMP:20150506T211223
+LOCATION:Portland 255
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42228
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-17:00--42228
+SUMMARY:The evolution of the big data platform at Netflix
+DESCRIPTION:Presented by Eva Tse (Netflix, Inc). At Netflix, the big dat
+ a platform is the foundation for analytics that drives all product decis
+ ions. As for scale, it is one of the top three largest services running 
+ at Netflix. In this talk, you will learn about our open source-powered b
+ ig data architecture in the AWS cloud, and how we build out the technolo
+ gy stack that comprises the big data platform at Netflix today.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T112000
+DTSTART;TZID=US/Pacific:20150723T104000
+DTSTAMP:20150504T230657
+LOCATION:Portland 255
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41269
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-10:40--41269
+SUMMARY:Speeding up the web with PHP 7
+DESCRIPTION:Presented by Rasmus Lerdorf (Etsy). 2015 is an exciting year
+  for PHP. With PHP 7 soon to be released, and HHVM getting complete enou
+ gh to run most existing PHP apps well, you have two amazingly fast optio
+ ns for running your PHP code. In this session I will cover the performan
+ ce and new features of PHP 7.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T121000
+DTSTART;TZID=US/Pacific:20150723T113000
+DTSTAMP:20150428T231719
+LOCATION:Portland 255
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41417
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-11:30--41417
+SUMMARY:Practical performance tips and tricks to make your HTML/JavaScri
+ pt faster
+DESCRIPTION:Presented by Doris Chen (Microsoft). How do you tackle real-
+ world web platform performance problems in modern websites and apps? Thi
+ s session starts with a basic understanding of the web platform, and the
+ n explores a set of problem/solution pairs built with industry-standard 
+ performance guidance. In the talk, we will demonstrate performance tips 
+ and tricks that will help you improve the performance of your apps and s
+ ites today.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T142000
+DTSTART;TZID=US/Pacific:20150723T134000
+DTSTAMP:20150504T180034
+LOCATION:Portland 255
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41619
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-13:40--41619
+SUMMARY:When Performance Counts: C++ in the 21st Century
+DESCRIPTION:Presented by Jon Kalb (A9.com). C++ is hot again. Find out w
+ hy. This talk will cover why engineers looking for performance choose C+
+ +, and where C++ fits in a world in which solutions are increasingly cre
+ ated using different languages for different components. You will get a 
+ historical perspective of C++, focusing on what's going on in the C++ co
+ mmunity right now and where the language and its user base is heading.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T151000
+DTSTART;TZID=US/Pacific:20150723T143000
+DTSTAMP:20150630T154131
+LOCATION:Portland 255
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41968
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-14:30--41968
+SUMMARY:Walmart’s tech transformation: Scaling to serve 245 million cust
+ omers
+DESCRIPTION:Presented by Jeremy King (Walmart Global E-Commerce). In ord
+ er to scale its operations to serve more than 245 million customers arou
+ nd the world each week, Walmart eCommercecompletely re-engineered its en
+ tire technology stack -- including making huge investments in OpenStack,
+  Node.JS and other technologies to create a global platform that would r
+ ival those of the best technology companies.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T165000
+DTSTART;TZID=US/Pacific:20150723T161000
+DTSTAMP:20150506T001009
+LOCATION:Portland 255
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42161
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-16:10--42161
+SUMMARY:Connecting and deploying microservices at scale with nginx
+DESCRIPTION:Presented by Nick Shadrin (Nginx, Inc.). The new standard fo
+ r web application development is microservices. In this talk we will rev
+ iew a modern web architecture, ways to fit different systems together, a
+ nd how to scale and manage demand  from initial startup deployments to m
+ illions of users. We will talk about the importance of unification of th
+ e web delivery approach across multiple systems, and demo some new featu
+ res of nginx.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T174000
+DTSTART;TZID=US/Pacific:20150723T170000
+DTSTAMP:20150501T203057
+LOCATION:Portland 255
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42353
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-17:00--42353
+SUMMARY:Mesos: The operating system for your datacenter
+DESCRIPTION:Presented by David Greenberg (Two Sigma). In this talk, we'l
+ l learn all about Mesos - what it is, how you can leverage it to simplif
+ y your infrastructure and reduce AWS/cloud computing costs, and why you 
+ should develop your next application on top of it. This talk will give y
+ ou the tools you need to understand whether Mesos is the right fit for y
+ our infrastructure, and several starting points for learning more about 
+ Mesos.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150724T104000
+DTSTART;TZID=US/Pacific:20150724T100000
+DTSTAMP:20150428T223532
+LOCATION:Portland 255
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41459
+UID:http://www.oscon.com/open-source-2015--s2015-07-24-10:00--41459
+SUMMARY:Speed kills: When faster pages mean less revenue
+DESCRIPTION:Presented by Eddie Canales (Manta Media). Faster pages...pro
+ fit! Right? Despite what common sense and every case study might tell yo
+ u, we found out that isn't always true. When you get 20 million visitors
+  a month and make a lot of your money from advertising (the enemy of spe
+ ed), you have tons of opportunity/obligation to understand which kinds o
+ f speed matter. This is a story about hope, disappointment, discovery, a
+ nd triumph.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150724T115000
+DTSTART;TZID=US/Pacific:20150724T111000
+DTSTAMP:20150505T000223
+LOCATION:Portland 255
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42132
+UID:http://www.oscon.com/open-source-2015--s2015-07-24-11:10--42132
+SUMMARY:Designing reactive systems with Akka
+DESCRIPTION:Presented by Thomas Lockney (Nike & PNWScala). This session 
+ will show attendees how to build reactive services using Akka and Scala.
+  Reactive services are scalable, reliable, and efficient, and we'll demo
+ nstrate the basic model, a simple development workflow, and the tools an
+ d libraries that make it all work.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T112000
+DTSTART;TZID=US/Pacific:20150722T104000
+DTSTAMP:20150505T230238
+LOCATION: Portland 256
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42069
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-10:40--42069
+SUMMARY:Visualizing program execution
+DESCRIPTION:Presented by Jan Paul Posma (Brigade). We don’t see how code
+  executes. We take peeks, using console.logs and breakpoints, but they d
+ on’t tell the whole story. This talk shows future toolmakers and (non-) 
+ visual thinkers how to take off our blindfolds.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T121000
+DTSTART;TZID=US/Pacific:20150722T113000
+DTSTAMP:20150526T185051
+LOCATION: Portland 256
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41094
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-11:30--41094
+SUMMARY:You type "google.com" into your browser bar and press enter: Wha
+ t happens next?
+DESCRIPTION:Presented by Graeme Mathieson (Wossname Industries). We'll t
+ ake a deep dive down the stack, into how the internet works to magically
+  make Google's home page appear in our web browser. Topics will range fr
+ om URL parsing and DNS resolution, through HTTP, TCP, IP, and routing, a
+ nd all the way back up to browser rendering.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T142000
+DTSTART;TZID=US/Pacific:20150722T134000
+DTSTAMP:20150505T171134
+LOCATION: Portland 256
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41029
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-13:40--41029
+SUMMARY:How to think in Go: Stories from a Perl developer turned Go deve
+ loper
+DESCRIPTION:Presented by Daisuke Maki (HDE Inc). Go is quickly becoming 
+ one of the many must-have items in our toolboxes. In this talk I will de
+ scribe the common pitfalls and misunderstandings for people who have an 
+ extensive background in interpreted languages like myself. I will tell y
+ ou all about my failures so you don't have to repeat them!
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T151000
+DTSTART;TZID=US/Pacific:20150722T143000
+DTSTAMP:20150501T220111
+LOCATION: Portland 256
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/40462
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-14:30--40462
+SUMMARY:A rebasing workflow for Git
+DESCRIPTION:Presented by Emma Jane Hogbin Westby (Git for Teams). You've
+  decided to level up your Git skills and have heard that rebasing is whe
+ re it's at. In this session we'll talk about: WHY rebasing can make it e
+ asier to untangle your project's history; WHEN you should use rebase; WH
+ AT rebasing actually does to your repository; and HOW it actually looks 
+ when things go right (and how to recover when things go wrong).
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T165000
+DTSTART;TZID=US/Pacific:20150722T161000
+DTSTAMP:20150505T223654
+LOCATION: Portland 256
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41337
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-16:10--41337
+SUMMARY:Unicode beyond just characters: Localization with the CLDR
+DESCRIPTION:Presented by Nick Patch (Shutterstock). Unicode is much more
+  than just characters. The Unicode Consortium defines open standards for
+  collating, parsing, and formatting data in much of the world’s language
+ s. The Common Locale Data Repository (CLDR) is the largest standard repo
+ sitory of locale data along with specifications for its use, and is a po
+ werful resource for software localization.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T174000
+DTSTART;TZID=US/Pacific:20150722T170000
+DTSTAMP:20150522T160559
+LOCATION: Portland 256
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41568
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-17:00--41568
+SUMMARY:A general theory of reactivity
+DESCRIPTION:Presented by Kris Kowal (Uber). Promises, streams, observabl
+ es, and behaviors are some of the building blocks of event driven progra
+ mming. What makes each of these tick and when would you choose one over 
+ another?
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T112000
+DTSTART;TZID=US/Pacific:20150723T104000
+DTSTAMP:20150429T000207
+LOCATION: Portland 256
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/40632
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-10:40--40632
+SUMMARY:Don't change languages. Change your language.
+DESCRIPTION:Presented by Damian Conway (Thoughtstream). Your favorite de
+ velopment language may be great, but it inevitably has a few misfeatures
+  that make every programming task unnecessarily harder. That doesn't mea
+ n you need to find a new language; you can fix your existing one. And, h
+ appily, you already have exactly the right tool to do that: your existin
+ g language.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T121000
+DTSTART;TZID=US/Pacific:20150723T113000
+DTSTAMP:20150505T213209
+LOCATION: Portland 256
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41777
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-11:30--41777
+SUMMARY:Asp.net vNext: Hey, Asp.net isn't just for enterprise
+DESCRIPTION:Presented by Maria Naggaga (Microsoft ). ASP.Net vNext, the 
+ open source version of the .Net series, has opened up its framework to a
+ n entirely new web developer community.  The cool thing about this lean 
+ framework is you can get ASP.NET from Mac to PC using either Visual Stud
+ io Community or Sublime. In this demo, I will be going through the tools
+  and frameworks you need to get ASP.NET vNext running on OS X Yosemite.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T142000
+DTSTART;TZID=US/Pacific:20150723T134000
+DTSTAMP:20150505T173048
+LOCATION: Portland 256
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41099
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-13:40--41099
+SUMMARY:Handle your design conundrums with modern Python design patterns
+DESCRIPTION:Presented by Anna Martelli Ravenscroft (Self), Alex Martelli
+  (Google). Many classic design patterns and traditional Python idioms re
+ main relevant today. However, the language has grown, the problem spaces
+  we address keep shifting, and best practices for software development h
+ ave matured. Thus, the set of best-of-breed patterns and idioms has chan
+ ged, some classics fading, new stars emerging. This talk explores today'
+ s realities in Python patterns and idioms.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T151000
+DTSTART;TZID=US/Pacific:20150723T143000
+DTSTAMP:20150428T215918
+LOCATION: Portland 256
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41110
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-14:30--41110
+SUMMARY:This is why you fail: The avoidable mistakes open source project
+ s STILL make
+DESCRIPTION:Presented by Tom "spot" Callaway (Red Hat). In true open sou
+ rce fashion, a community's failures are often as visible as their succes
+ ses. Failing can provide a learning experience, but many mistakes are st
+ ill made which can easily be avoided, even by experienced open source co
+ mmunities. Learn about these points of fail that open source projects ha
+ ve experienced, and see how badly your favorite FOSS project fails.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T165000
+DTSTART;TZID=US/Pacific:20150723T161000
+DTSTAMP:20150707T024738
+LOCATION: Portland 256
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42391
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-16:10--42391
+SUMMARY:Using Docker to simplify distributed systems development
+DESCRIPTION:Presented by John Hugg (VoltDB). One challenge in building d
+ istributed systems is actually running and testing distributed systems. 
+ This session will show how developers at VoltDB simplify development and
+  testing using Docker and other container technologies.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T174000
+DTSTART;TZID=US/Pacific:20150723T170000
+DTSTAMP:20150505T235641
+LOCATION: Portland 256
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42218
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-17:00--42218
+SUMMARY:How to write a specification: Implementing a library in seven pr
+ ogramming languages
+DESCRIPTION:Presented by James Saryerwinnie (AWS). In this talk, I'll sh
+ ow you how to write a straightforward specification that is easy to impl
+ ement in any programming language.  I'll do this by sharing the story of
+  JMESPath, a query language for JSON that currently has implementations 
+ in seven languages, and the lessons learned in creating the JMESPath spe
+ cification. You'll leave ready to write easy-to-implement specifications
+ .
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150724T104000
+DTSTART;TZID=US/Pacific:20150724T100000
+DTSTAMP:20150506T215503
+LOCATION: Portland 256
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42315
+UID:http://www.oscon.com/open-source-2015--s2015-07-24-10:00--42315
+SUMMARY:IPython Notebook best practices for data science
+DESCRIPTION:Presented by Jonathan Whitmore (Silicon Valley Data Science)
+ . The IPython Notebook is perfect for many data science tasks, including
+  rapid iteration for data munging and cleaning; exploration and visualiz
+ ation; creating a transparent data processing pipeline workflow; and bea
+ utiful presentation of results. This talk will explore overall best prac
+ tices, with special attention to these use cases and how to get the most
+  out of IPython Notebook for each one.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150724T115000
+DTSTART;TZID=US/Pacific:20150724T111000
+DTSTAMP:20150505T201240
+LOCATION: Portland 256
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42165
+UID:http://www.oscon.com/open-source-2015--s2015-07-24-11:10--42165
+SUMMARY:The art of troubleshooting
+DESCRIPTION:Presented by Jason Maxham (The Art Of Troubleshooting). It's
+  something we all do, but how it's done can be haphazard. I'm talking ab
+ out troubleshooting, an often underappreciated skill. This talk will get
+  you thinking about this critical discipline in a more formal way. We'll
+  cover: Strategies: recipes to quickly get you from "broken" to "fixed";
+  Virtues: the mindset and behavior of a good troubleshooter; Cleaning up
+ : learning from failures.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T112000
+DTSTART;TZID=US/Pacific:20150722T104000
+DTSTAMP:20150506T212947
+LOCATION:D135/136
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41708
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-10:40--41708
+SUMMARY:How my POODLE lost his Xen state by seeing a Ghost, going BERser
+ k, and getting ShellShock with a Heartbleed
+DESCRIPTION:Presented by Ryan Ware (Intel Corporation). 2014 was a hard 
+ year for open source software when it comes to security vulnerabilities.
+   There were great amounts of attention focused on Heartbleed, ShellShoc
+ k, BERserk, etc.  Was that attention well founded?  This presentation in
+ tends to find out.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T121000
+DTSTART;TZID=US/Pacific:20150722T113000
+DTSTAMP:20150505T004755
+LOCATION:D135/136
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41574
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-11:30--41574
+SUMMARY:Hardware hacking 101: There is plenty of room at the bottom
+DESCRIPTION:Presented by Federico Lucifredi (Red Hat). This is a live de
+ monstration of hacking into the processor embedded in an SD card, effect
+ ively turning the device into a covert Raspberry Pi-class computer under
+  your complete control -- running Linux. There will be a discussion of s
+ imilar attacks against ARM processors embedded in current HDD drive cont
+ rollers.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T142000
+DTSTART;TZID=US/Pacific:20150722T134000
+DTSTAMP:20150622T224631
+LOCATION:D135/136
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/40593
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-13:40--40593
+SUMMARY:Protecting the future of mobile payments
+DESCRIPTION:Presented by Jonathan LeBlanc (PayPal / Braintree). We are n
+ ow in an age where more people have phones than toilets, and there are m
+ ore active cell phones than people on the planet. How do we protect all 
+ of these devices as they’re roaming around unsecured locations, especial
+ ly when we want to pay for something.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T151000
+DTSTART;TZID=US/Pacific:20150722T143000
+DTSTAMP:20150429T001427
+LOCATION:D135/136
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41975
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-14:30--41975
+SUMMARY:High adventures in sniffing my own metadata
+DESCRIPTION:Presented by Josh Deprez (Google Australia). What can be lea
+ rned about a person's internet habits if every packet in and out was log
+ ged by a transparent man-in-the-middle? Here's what I discovered from a 
+ few months of self-experimentation.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T165000
+DTSTART;TZID=US/Pacific:20150722T161000
+DTSTAMP:20150506T211546
+LOCATION:D135/136
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/40555
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-16:10--40555
+SUMMARY:I've been hacked, now what?
+DESCRIPTION:Presented by Beth Tucker Long (Code Climate). Investigate a 
+ hacked WordPress website, and learn what the hacker has left behind, whi
+ ch tools will help find the vulnerability and point of entrance, how to 
+ seal up the most common problem areas, and how to set up notifications t
+ o help you spot a hack more quickly in the future. Even though we will b
+ e going through a WordPress website, most of the tools discussed are app
+ licable to any website.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T174000
+DTSTART;TZID=US/Pacific:20150722T170000
+DTSTAMP:20150501T175603
+LOCATION:D135/136
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42272
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-17:00--42272
+SUMMARY:Getting under your hood: Cars and computers
+DESCRIPTION:Presented by John Feminella (UpHex). There's a war on open s
+ tandards and software brewing, and it's happening in a surprising locati
+ on: under the hood of your car. In this talk, we discuss the storied his
+ tory of OBD, a suite of related diagnostic protocols that's used by virt
+ ually every car sold in the US, EU, and China -- and how your ability to
+  own and examine your vehicle's data might be threatened if some people 
+ have their way.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T112000
+DTSTART;TZID=US/Pacific:20150723T104000
+DTSTAMP:20150506T184232
+LOCATION:D135/136
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41753
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-10:40--41753
+SUMMARY:Vulnerability management for open software development
+DESCRIPTION:Presented by Jeremy Stanley (OpenStack Foundation). The vuln
+ erability management team for the OpenStack project handles hundreds of 
+ incoming reports of potential security vulnerabilities, and publishes do
+ zens of advisories every year. Find out how we reconcile vulnerability r
+ eporting with our public design and open community development ideals, a
+ nd learn about the free tooling and published processes we employ to mak
+ e it easier.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T121000
+DTSTART;TZID=US/Pacific:20150723T113000
+DTSTAMP:20150526T190639
+LOCATION:D135/136
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41305
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-11:30--41305
+SUMMARY:Hello, my name is __________.
+DESCRIPTION:Presented by Nick Patch (Shutterstock). Our personal identit
+ y is core to how we perceive ourselves and wish to be seen. All too ofte
+ n, however, applications, databases, and user interfaces are not designe
+ d to fully support the worldwide diversity of our most basic personal in
+ formation like names and genders. This session will demonstrate ways to 
+ build applications that respect users’ identities instead of limiting th
+ em.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T142000
+DTSTART;TZID=US/Pacific:20150723T134000
+DTSTAMP:20150428T182957
+LOCATION:D135/136
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/40511
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-13:40--40511
+SUMMARY:For the greater good? Open sourcing weaponisable code
+DESCRIPTION:Presented by Laura Bell (SafeStack Limited). Are we responsi
+ ble for what code is used for once released? Security tools are a fascin
+ ating grey area. In order to protect our organisations, systems, and peo
+ ple, we must attack them in controlled ways and measure the results. The
+  line between beneficial defensive tools and weapon of choice is unclear
+ . So how do you safely open source a security tool like this? Let me sha
+ re my story.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T151000
+DTSTART;TZID=US/Pacific:20150723T143000
+DTSTAMP:20150526T185718
+LOCATION:D135/136
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41388
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-14:30--41388
+SUMMARY:Getting your ducks in a row - an introduction to managing compon
+ ents in your software supply chain
+DESCRIPTION:Presented by Manfred Moser (simpligility technologies inc.).
+  Results of a five-year study on open source development and security pr
+ actices form the basis for introducing supply chain management to your d
+ evelopment practice. We rely on the usage of third-party components, and
+  take on the responsibility for them and their licensing terms or securi
+ ty vulnerabilities. New tools for managing these components in your soft
+ ware development efforts are demoed.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T165000
+DTSTART;TZID=US/Pacific:20150723T161000
+DTSTAMP:20150505T234200
+LOCATION:D135/136
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41884
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-16:10--41884
+SUMMARY:Creating a community around cybersecurity best practices
+DESCRIPTION:Presented by Alan Robertson (Assimilation Systems Limited). 
+ The cybersecurity community has difficulty working together around breac
+ hes, out of legal and public relations concerns, but can share best prac
+ tices. The open source Assimilation Project  compares system configurati
+ ons against best practices in near-real-time.  This talk outlines our ef
+ forts to include more security experts in our community, and translate t
+ he results into open source code.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T174000
+DTSTART;TZID=US/Pacific:20150723T170000
+DTSTAMP:20150608T234910
+LOCATION:D135/136
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42112
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-17:00--42112
+SUMMARY:Open sourcing anti-harassment tools
+DESCRIPTION:Presented by Randi Harper (Literally Blue, LLC). This talk a
+ ims to discuss the current state of online harassment, and the way that 
+ the open source community can create new tools to mitigate abuse until p
+ olicy and law enforcement catch up.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150724T104000
+DTSTART;TZID=US/Pacific:20150724T100000
+DTSTAMP:20150506T183004
+LOCATION:D135/136
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42341
+UID:http://www.oscon.com/open-source-2015--s2015-07-24-10:00--42341
+SUMMARY:Build a botnet?
+DESCRIPTION:Presented by Bryan  Smith (Fossetcon). Botnets can take down
+  virtually any site or service on the internet, including an entire coun
+ try's internet backbone. Oftentimes your hear about a botnet's path of d
+ estruction, but you never hear about how they work. This talk will intro
+ duce you to the concepts behind botnets, and also show a live demonstrat
+ ion of a botnet on a sandboxed network.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150724T115000
+DTSTART;TZID=US/Pacific:20150724T111000
+DTSTAMP:20150501T185357
+LOCATION:D135/136
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41536
+UID:http://www.oscon.com/open-source-2015--s2015-07-24-11:10--41536
+SUMMARY:Building a trustworthy computer
+DESCRIPTION:Presented by Matthew Garrett (CoreOS). As we become more and
+  more reliant on our computers, attackers become more and more sophistic
+ ated. How can we build a computer that's resilient to some of the more s
+ ubtle attacks such as firmware modification?
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T123000
+DTSTART;TZID=US/Pacific:20150720T090000
+DTSTAMP:20150629T195043
+LOCATION:D136
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41115
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-09:00--41115
+SUMMARY:Get started developing with Scala
+DESCRIPTION:Presented by Jason Swartz (Mesosphere). Scala powers some of
+  the biggest companies and fastest applications in the world. Find out w
+ hy so many programmers are enamored of this language. We'll start with t
+ he basics of Scala, try out the features in the REPL, and then build an 
+ application. If you already know Javascript, Ruby, Python, or Java then 
+ you'll do great in this class.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T170000
+DTSTART;TZID=US/Pacific:20150720T133000
+DTSTAMP:20150629T193951
+LOCATION:D136
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42497
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-13:30--42497
+SUMMARY:Nim - The ultimate introduction
+DESCRIPTION:Presented by Andreas Rumpf (3DICC). Nim is an emerging progr
+ amming language that brings together the indentation-based syntax of Pyt
+ hon, the speed of C, and the meta programming of Lisp. Nim scales from s
+ imple script-like programs up to full-blown system programs like compile
+ rs or 3D engines thanks to its layered language design.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T123000
+DTSTART;TZID=US/Pacific:20150721T090000
+DTSTAMP:20150521T191706
+LOCATION:D136
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41688
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-09:00--41688
+SUMMARY:Bland to beautiful: Data visualization workshop
+DESCRIPTION:Presented by Julie Steele (Silicon Valley Data Science), Sus
+ ie Lu (Silicon Valley Data Science). This tool-agnostic tutorial is for 
+ those with the software chops and interest to create data visualizations
+ , who want to elevate the look and feel of their work. Attendees will wo
+ rkshop an in-progress data visualization. They will learn design best pr
+ actices and how to navigate the critique process, and then develop their
+  own work on-site with guidance from two experts.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T170000
+DTSTART;TZID=US/Pacific:20150721T133000
+DTSTAMP:20150615T174156
+LOCATION:D136
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42458
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-13:30--42458
+SUMMARY:An introduction to d3.js: From scattered to scatterplot
+DESCRIPTION:Presented by Scott Murray (University of San Francisco). Get
+  started with d3.js, the most powerful JavaScript tool for creating data
+  visualizations on the web.  We'll start from scratch, and build an inte
+ ractive scatterplot by the end of the session.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T123000
+DTSTART;TZID=US/Pacific:20150720T090000
+DTSTAMP:20150629T225827
+LOCATION:D137/138
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41400
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-09:00--41400
+SUMMARY:Building a mobile app with Meteor.js, Cordova, and MongoDB
+DESCRIPTION:Presented by Josh Owens (Web 2.0 Show). Join Meteor expert J
+ osh Owens as he walks through live coding a Meteor.js app from scratch a
+ nd gets it working with the built-in Cordova support. Learn how easy it 
+ is to build a new mobile app with Meteor.js.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T170000
+DTSTART;TZID=US/Pacific:20150720T133000
+DTSTAMP:20150629T195414
+LOCATION:D137/138
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42146
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-13:30--42146
+SUMMARY:Building a Python web application using Flask and Neo4j
+DESCRIPTION:Presented by Nicole White (Neo4j). Flask, a popular Python w
+ eb framework, has many tutorials available online which use an SQL datab
+ ase to store information about the website’s users and their activities.
+  In this tutorial, we will replace SQL with Neo4j, an open source graph 
+ database, in order to build a simple microblog application with social f
+ eatures that are otherwise too complex to model and express in SQL.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T123000
+DTSTART;TZID=US/Pacific:20150721T090000
+DTSTAMP:20150508T152339
+LOCATION:D137/138
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41995
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-09:00--41995
+SUMMARY:Programming in Rust
+DESCRIPTION:Presented by Jim Blandy (Mozilla Corporation). Learn to prog
+ ram in Rust, a new systems programming language emphasizing safety and p
+ erformance. Rust offers the same degree of control over performance as C
+  and C++, but also makes strong memory safety guarantees: Rust programs 
+ are free of dangling pointers, leaks, null pointer dereferences and buff
+ er overruns, making the language well-suited for security-sensitive and 
+ multithreaded code.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T170000
+DTSTART;TZID=US/Pacific:20150721T133000
+DTSTAMP:20150623T151050
+LOCATION:D137/138
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41969
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-13:30--41969
+SUMMARY:Introducing Sass
+DESCRIPTION:Presented by Jen Kramer (Jen Kramer). Sass, the CSS preproce
+ ssor, is increasingly an important tool for creating websites. In this t
+ utorial, you'll learn the basics of structuring your Sass files, creatin
+ g variables, writing if/else statements, working with mixins, and more.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T112000
+DTSTART;TZID=US/Pacific:20150722T104000
+DTSTAMP:20150501T205231
+LOCATION:D137/138
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42151
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-10:40--42151
+SUMMARY:Introduction to developing embedded Linux device drivers
+DESCRIPTION:Presented by Nick Gudman (Hewlett Packard). Learning to deve
+ lop device drivers can be intimidating, but Linux makes it simpler than 
+ ever to write your own device driver. Using a simple driver for a monoch
+ romatic character display as a guide, we will briefly explore important 
+ topics for developing embedded Linux device drivers.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T121000
+DTSTART;TZID=US/Pacific:20150722T113000
+DTSTAMP:20150504T213959
+LOCATION:D137/138
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41808
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-11:30--41808
+SUMMARY:Building a mobile location-aware system with beacons
+DESCRIPTION:Presented by Jonathan LeBlanc (PayPal / Braintree). What if 
+ instead of a broad location, you could have pinpoint location awareness 
+ of someone in a physical space. How could this change everything about h
+ ow we interact with the physical world? In this session we'll explore op
+ en beacon technology, and how we can use these systems to change everyth
+ ing from shopping to accessibility for the disabled, all built on top of
+  a mobile device.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T142000
+DTSTART;TZID=US/Pacific:20150722T134000
+DTSTAMP:20150520T200237
+LOCATION:D137/138
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42389
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-13:40--42389
+SUMMARY:Fixing the fragmentation problem for real-time communications.
+DESCRIPTION:Presented by Matthew Hodgson (Matrix.org). An open, interope
+ rable communication ecosystem for VoIP, IM, and IoT services currently f
+ eels farther away than ever. Users are forced into closed silos like Wha
+ tsApp and Facebook by their contacts, rather than choosing their preferr
+ ed app/service. This talk discusses ways to fix the problem and introduc
+ es Matrix: an open standard for decentralised communication, which may p
+ rovide a new hope.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T151000
+DTSTART;TZID=US/Pacific:20150722T143000
+DTSTAMP:20150428T195850
+LOCATION:D137/138
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42675
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-14:30--42675
+SUMMARY:Practical mobile computer vision: How card.io works
+DESCRIPTION:Presented by Josh Bleecher Snyder (PayPal). card.io scans cr
+ edit cards using your phone's camera. It was recently open-sourced. This
+  talk will explain how card.io works its magic. No computer vision or ma
+ chine learning background required.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T165000
+DTSTART;TZID=US/Pacific:20150722T161000
+DTSTAMP:20150701T184752
+LOCATION:D137/138
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/45285
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-16:10--45285
+SUMMARY:Building the $9 computer, or How I learned to stop worrying and 
+ love embedded Linux
+DESCRIPTION:Presented by Dave Rauchwerk (Next Thing Co). 1GHz ARM Cortex
+  A8, 512MB RAM, 4GB NAND Flash, WiFi, Bluetooth - and it's completely op
+ en source.  Also, it costs $9. See how, why, and what it means for the f
+ uture of open hardware.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T174000
+DTSTART;TZID=US/Pacific:20150722T170000
+DTSTAMP:20150428T173009
+LOCATION:D137/138
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41412
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-17:00--41412
+SUMMARY:Creating Bluetooth LE devices with Arduino
+DESCRIPTION:Presented by Alasdair Allan (Babilim Light Industries). Blue
+ tooth LE is very different from classic Bluetooth, in fact pretty much t
+ he only thing that is the same is the name. Using Bluetooth LE radios pr
+ operly involves creating custom services and characteristics. However, u
+ ntil recently, this was actually really hard to do without making use of
+  expensive proprietary software tools.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T112000
+DTSTART;TZID=US/Pacific:20150723T104000
+DTSTAMP:20150530T195526
+LOCATION:D137/138
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41854
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-10:40--41854
+SUMMARY:Open source at scale: Building Pinterest’s iOS app
+DESCRIPTION:Presented by Garrett Moon (Pinterest). Pinterest’s iOS team 
+ uses over 30 open source libraries to build their app. Pinterest enginee
+ r Garrett Moon will explain how Pinterest moves quickly and maintains wo
+ rld-class stability, while shipping a new version of the app every three
+  weeks. Hear harrowing tales of tracking down deadlocks, rewriting popul
+ ar caching libraries, and implementing a homegrown image downloading and
+  caching library.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T121000
+DTSTART;TZID=US/Pacific:20150723T113000
+DTSTAMP:20150505T232308
+LOCATION:D137/138
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/40410
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-11:30--40410
+SUMMARY:Pingo means "pin, go!": Universal IoT programming in Python
+DESCRIPTION:Presented by Luciano Ramalho (Python.pro.br). Pingo is a uni
+ form Python API for devices that have programmable I/O for physical comp
+ uting: Raspberry Pi, Arduino TRE, Intel Edison, BeagleBone Black etc. Th
+ e design of the Arduino board and IDE made device programming accessible
+ , and the design of the Pingo API aims to do the same with the Internet 
+ of Things, bringing interactive discovery and high-level services to emb
+ edded systems development.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T142000
+DTSTART;TZID=US/Pacific:20150723T134000
+DTSTAMP:20150506T180852
+LOCATION:D137/138
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/40455
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-13:40--40455
+SUMMARY:Advanced analytics for the Internet of Things
+DESCRIPTION:Presented by Rosaria Silipo (KNIME). This project deals with
+  data from the Internet of Things, and particularly with data from a bik
+ e sharing service. The goal is to visualize and analyze the most popular
+  routes, as well as to implement an intelligent alarm system to restock 
+ the bike stations in a timely manner. Time series prediction, geo-locali
+ zation, and predictive analytics techniques have been used in this proje
+ ct.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T151000
+DTSTART;TZID=US/Pacific:20150723T143000
+DTSTAMP:20150501T174614
+LOCATION:D137/138
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/43709
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-14:30--43709
+SUMMARY:Full stack robotics using Go
+DESCRIPTION:Presented by Ron Evans (The Hybrid Group), Adrian Zankich (T
+ he Hybrid Group). The Internet of Things has begun to emerge, and the Ag
+ e of Robots has come upon us. What are the technologies that will make i
+ t real? The new and powerful programming language Go is ideally suited f
+ or the task. In this talk, we will share our vision of "full stack robot
+ ics" based on open source software such as Gobot, with live demonstratio
+ ns of actual robotic devices.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T165000
+DTSTART;TZID=US/Pacific:20150723T161000
+DTSTAMP:20150610T183907
+LOCATION:D137/138
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44890
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-16:10--44890
+SUMMARY:Closed devices powered by open source software? The IoT Paradox.
+DESCRIPTION:Presented by Peter Hoddie (Marvell). The Internet of Things 
+ is built on open source software, and yet the devices are far from open.
+  This isn’t the future that free and open source contributors have been 
+ working toward. It's a disappointment for the Open Source Community, but
+  we can lead the way to freedom, transparency, and collaboration in IoT.
+  And we must—to avert impending frustration for increasingly savvy consu
+ mers.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T174000
+DTSTART;TZID=US/Pacific:20150723T170000
+DTSTAMP:20150506T191227
+LOCATION:D137/138
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41491
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-17:00--41491
+SUMMARY:Raspberry Pi hacks
+DESCRIPTION:Presented by Ruth Suehle (Red Hat), Tom "spot" Callaway (Red
+  Hat). Ruth Suehle and Tom Callaway, authors of _Raspberry Pi Hacks_ (O’
+ Reilly, December 2013) offer technical tips for makers, hackers, and tin
+ kerers who want to take advantage of the Raspberry Pi. You'll learn univ
+ ersally useful things, like how to add a power switch, followed by a sho
+ w-and-tell of fun things that Ruth and Tom as well as many others have b
+ uilt.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150724T104000
+DTSTART;TZID=US/Pacific:20150724T100000
+DTSTAMP:20150609T183149
+LOCATION:D137/138
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42015
+UID:http://www.oscon.com/open-source-2015--s2015-07-24-10:00--42015
+SUMMARY:When copyleft business models go bad ... and how Kallithea's com
+ munity recovered
+DESCRIPTION:Presented by Bradley Kuhn (Software Freedom Conservancy). Ka
+ llithea is a self-hosted source code management system that exists thank
+ s to a GPL violation and subsequent compliance action by the Software Fr
+ eedom Conservancy.  We'll show how a copyleft license violation and care
+ ful license vetting helped a software development community begin anew, 
+ and why licensing wonks and release engineers can make a huge impact on 
+ the health of a project's community.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150724T115000
+DTSTART;TZID=US/Pacific:20150724T111000
+DTSTAMP:20150617T231433
+LOCATION:D137/138
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41182
+UID:http://www.oscon.com/open-source-2015--s2015-07-24-11:10--41182
+SUMMARY:Internet archive: Universal access. Open APIs
+DESCRIPTION:Presented by VM Brasseur (@vmbrasseur), Alexis Rossi (Intern
+ et Archive). Internet Archive has released a number of open APIs and too
+ ls to allow people to upload and download items, as well as data mine th
+ e metadata for its entire 12+ Petabyte collection.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T123000
+DTSTART;TZID=US/Pacific:20150720T090000
+DTSTAMP:20150708T020851
+LOCATION:D139/140
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41300
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-09:00--41300
+SUMMARY:Linux bootcamp: From casual Linux user to kernel hacker
+DESCRIPTION:Presented by Tammy Butow (DigitalOcean), Georgi Knox (Bitly)
+ , Jessica Frazelle (Docker). This will be a hands-on workshop aimed at t
+ hose who are casually familiar with the Linux operating system. Perhaps 
+ you use it on a server or in a virtualbox, but want to gain deeper under
+ standing about the kernel and how Linux actually works.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T170000
+DTSTART;TZID=US/Pacific:20150720T133000
+DTSTAMP:20150626T214848
+LOCATION:D139/140
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41609
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-13:30--41609
+SUMMARY:Hacking smart electronics
+DESCRIPTION:Presented by Robert Gallup (XOBXOB). Prototypes allow us to 
+ see, touch, feel, and refine ideas and designs. Starting from zero, this
+  hands-on workshop explores smart hardware prototyping using a micro-con
+ troller and basic electronic components. You'll connect LEDs, buttons, a
+ nd knobs, then program a micro-controller to define behavior. Through th
+ is you’ll better understand the tools and process of designing smart, co
+ nnected products.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T123000
+DTSTART;TZID=US/Pacific:20150721T090000
+DTSTAMP:20150513T162852
+LOCATION:D139/140
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42077
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-09:00--42077
+SUMMARY:Demystifying Haskell
+DESCRIPTION:Presented by Robert "r0ml" Lefkowitz (self). Haskell has a r
+ eputation as a difficult language to learn.  This tutorial sets out to t
+ each the useful part of Haskell -- avoiding the theoretical and computer
+  science bits which so many find confusing.  Learn to write programs in 
+ Haskell with this tutorial.  You can learn the difficult bits later if y
+ ou want.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T170000
+DTSTART;TZID=US/Pacific:20150721T133000
+DTSTAMP:20150623T151055
+LOCATION:D139/140
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42495
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-13:30--42495
+SUMMARY:Solving the concurrency problem with Clojure
+DESCRIPTION:Presented by Carin Meier (Cognitect). Clojure is an elegant,
+  powerful language.  With functional programming style and immutable dat
+ a, we can solve the problem of concurrency that is very difficult to dea
+ l with in other languages.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T112000
+DTSTART;TZID=US/Pacific:20150722T104000
+DTSTAMP:20150520T180421
+LOCATION:D139/140
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41447
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-10:40--41447
+SUMMARY:Open source is ugly: Improving UX and UI design
+DESCRIPTION:Presented by Garth Braithwaite (Adobe). The design of an ope
+ n source project will greatly effect a user's experience, and open sourc
+ e typically lacks solid design. In this session we'll talk about the cur
+ rent state of design and how we can raise the bar in an open source comm
+ unity.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T121000
+DTSTART;TZID=US/Pacific:20150722T113000
+DTSTAMP:20150617T204016
+LOCATION:D139/140
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42014
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-11:30--42014
+SUMMARY:Building a modular front-end framework and style guide for a lar
+ ge organization
+DESCRIPTION:Presented by Scott Cranfill (Consumer Financial Protection B
+ ureau), Mollie Bates (Consumer Financial Protection Bureau). Keeping cod
+ e and design in sync across large teams and multiple projects can be a b
+ ig challenge. At the Consumer Financial Protection Bureau, a new federal
+  agency, the in-house design and development team has created its own mo
+ dular front-end framework and style guide. Team members will talk about 
+ how this has fostered cross-team collaboration and improved the consiste
+ ncy of their products.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T142000
+DTSTART;TZID=US/Pacific:20150722T134000
+DTSTAMP:20150603T215514
+LOCATION:D139/140
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42625
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-13:40--42625
+SUMMARY:Articulating design decisions
+DESCRIPTION:Presented by Tom Greever (Bitovi). Every designer has had to
+  justify designs to non-designers, yet most lack the ability to explain 
+ their choices in a compelling way. Effectively articulating design decis
+ ions is critical to a project’s success because the most articulate pers
+ on wins. This session offers practical advice for talking to managers, d
+ evelopers, and other stakeholders to win them over and create the best u
+ ser experience.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T151000
+DTSTART;TZID=US/Pacific:20150722T143000
+DTSTAMP:20150428T220537
+LOCATION:D139/140
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/40414
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-14:30--40414
+SUMMARY:Decoupling the frontend through modular CSS
+DESCRIPTION:Presented by Julie Cameron (Articulate). This talk will look
+  at how taking a modular, object-oriented approach to CSS can turn front
+ end woes into frontend wins. We’ll examine modern CSS approaches like OO
+ CSS, SMACSS, and BEM and demonstrate how they will help to not only deco
+ uple your CSS styles and reduce specificity conflicts, but how they will
+  also help to decouple your CSS and HTML from your JavaScript and featur
+ e specs.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T165000
+DTSTART;TZID=US/Pacific:20150722T161000
+DTSTAMP:20150513T045422
+LOCATION:D139/140
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42173
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-16:10--42173
+SUMMARY:Sass: What it is, how it's used, and why it's so Syntactically A
+ wesome
+DESCRIPTION:Presented by Lucy Wyman (OSU Open Source Lab). This talk wil
+ l start off with the basics of what Syntactically Awesome StyleSheets ar
+ e, what features and functionality they have to offer, and why they're a
+  great tool to have in your arsenal. We'll then delve into how to use Sa
+ ss in developing your own sites and which tools you'll want to use along
+ side it, complete with a live demo and some in-production examples.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T174000
+DTSTART;TZID=US/Pacific:20150722T170000
+DTSTAMP:20150327T012109
+LOCATION:D139/140
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42012
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-17:00--42012
+SUMMARY:Rolling dice alone: Board games with remote friends
+DESCRIPTION:Presented by Tim Nugent (lonely.coffee). Board games are har
+ d at the best of times – you have to find friends who have the free time
+  to play, find a game everyone is happy to play, and more! When friends 
+ move elsewhere, things get even harder!  This sessions explores the chal
+ lenges of telepresence board gaming. Learn why and how you should care, 
+ how the problems are being addressed, and how it’s relevant to remote co
+ llaboration.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T112000
+DTSTART;TZID=US/Pacific:20150723T104000
+DTSTAMP:20150610T062655
+LOCATION:D139/140
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41783
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-10:40--41783
+SUMMARY:Modern accessibility for modern web apps
+DESCRIPTION:Presented by Patrick Fox (Razorfish). Building modern, acces
+ sible web apps can be daunting. This talk goes beyond the foundational a
+ spects of accessibility to discuss higher-level concepts and challenges 
+ for making modern web UI accessible, demonstrating specific solutions an
+ d best practices for: -Common UI components(modals, form validation) -Si
+ ngle-page architecture -Summarizing complex content -Providing accessibl
+ e help text
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T121000
+DTSTART;TZID=US/Pacific:20150723T113000
+DTSTAMP:20150707T233538
+LOCATION:D139/140
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/45294
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-11:30--45294
+SUMMARY:Introducing an open source answer for modern collaboration
+DESCRIPTION:Presented by Amandine Le Pape (Vector). If you believe in a 
+ world where we should have the right to run our own communications and o
+ wn our data, then learn how “Vector” fills the void!
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T142000
+DTSTART;TZID=US/Pacific:20150723T134000
+DTSTAMP:20150606T052323
+LOCATION:D139/140
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41947
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-13:40--41947
+SUMMARY:How Do I Game Design? Design games, understand people!
+DESCRIPTION:Presented by Paris Buttfield-Addison (Secret Lab Pty. Ltd.),
+  Jonathon Manning (Secret Lab Pty. Ltd.), Tim Nugent (lonely.coffee). In
+  this session, you’ll learn about game design: the art and science of co
+ nstructing enjoyable, engaging games. We aren't doing any coding, and we
+ ’re not talking game engine development - instead, we’ll be taking a dee
+ p dive into game design theory, using it to understand how people intera
+ ct with rules, and how to use it to improve your community, your company
+ , your project, and your software.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T151000
+DTSTART;TZID=US/Pacific:20150723T143000
+DTSTAMP:20150520T174800
+LOCATION:D139/140
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42285
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-14:30--42285
+SUMMARY:Manufacturing open source hardware
+DESCRIPTION:Presented by Kipp Bradford (The Kippworks). So you want to t
+ urn your cool hardware device into a new product—what could possibly go 
+ wrong? If you’ve ever helped crowdfund a hardware product, then you’ve p
+ robably gotten some insight into many of the things that do go wrong. Th
+ is talk will explore some common mistakes and why, despite the challenge
+ s, an open-source approach to hardware manufacturing makes sense.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T165000
+DTSTART;TZID=US/Pacific:20150723T161000
+DTSTAMP:20150506T212337
+LOCATION:D139/140
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41389
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-16:10--41389
+SUMMARY:UX for open source: Getting the most from an engaged community
+DESCRIPTION:Presented by Joe Wagner (Puppet Labs). At Puppet Labs, we’ve
+  adopted and developed techniques for getting our ideas in front of our 
+ community in a manner that leads to reliable feedback. Join us to learn 
+ about what we’ve found to be effective, and how that has affected the wa
+ y we plan, design, and build.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T174000
+DTSTART;TZID=US/Pacific:20150723T170000
+DTSTAMP:20150428T225035
+LOCATION:D139/140
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41052
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-17:00--41052
+SUMMARY:Designing calm technology
+DESCRIPTION:Presented by Amber Case (Esri). Technology shouldn't require
+  all of our attention, just some of it, and only when necessary. This ta
+ lk will cover how to use principles of calm technology to design the nex
+ t generation of connected devices. We'll look at notification styles, co
+ mpressing information into other senses, and designing for the least amo
+ unt of cognitive overhead.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150724T104000
+DTSTART;TZID=US/Pacific:20150724T100000
+DTSTAMP:20150506T190449
+LOCATION:D139/140
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41206
+UID:http://www.oscon.com/open-source-2015--s2015-07-24-10:00--41206
+SUMMARY:Listen to the difference: Using a screenreader to compare before
+ /after code of 5 top accessibility barriers
+DESCRIPTION:Presented by Nicolas Steenhout (Part of a Whole). Without fi
+ rsthand experience, it is difficult to understand the barriers that exis
+ t for screenreader users on the web. Many developers have told me they w
+ ere curious to "see" a screenreader in action. This is your chance! Usin
+ g a combination of real-world examples and code snippets, we will use a 
+ screenreader to go through common barriers and discuss them.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150724T115000
+DTSTART;TZID=US/Pacific:20150724T111000
+DTSTAMP:20150505T005155
+LOCATION:D139/140
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41563
+UID:http://www.oscon.com/open-source-2015--s2015-07-24-11:10--41563
+SUMMARY:Building a modern UI for programmers
+DESCRIPTION:Presented by Caleb Madrigal (FireEye). You’ve got mad comput
+ er hacking skills, and an app idea to take over the world! But there's o
+ ne problem: you’re not a designer and need your app to look stunning. Th
+ is talk will show you how to quickly build a beautiful, modern user inte
+ rface without having to hire a designer.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T123000
+DTSTART;TZID=US/Pacific:20150720T090000
+DTSTAMP:20150507T190431
+LOCATION:E143/144
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42543
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-09:00--42543
+SUMMARY:Reactive Architecture with Play, Akka, and Scala
+DESCRIPTION:Presented by Henrik Engstrom (Typesafe). Reactive Applicatio
+ ns are the next major evolution of the Internet. They allow for applicat
+ ions to be responsive, scalable and resilient by building on a fully eve
+ nt-driven foundation. Typesafe’s Reactive Platform, consisting of the Pl
+ ay Framework, the Akka middleware and the Scala programming language emb
+ races this new programming paradigm.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T170000
+DTSTART;TZID=US/Pacific:20150720T133000
+DTSTAMP:20150623T145527
+LOCATION:E143/144
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41698
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-13:30--41698
+SUMMARY:Introduction to planning and running tech events
+DESCRIPTION:Presented by Kara Sowles (Puppet Labs), Francesca Krihely (B
+ owery). The open source world has a vibrant, never-ending calendar of co
+ mmunity events. This session will cover best practices and pitfalls to a
+ void in planning and executing events for your technical community.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T123000
+DTSTART;TZID=US/Pacific:20150721T090000
+DTSTAMP:20150702T153407
+LOCATION:E143/144
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/40630
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-09:00--40630
+SUMMARY:Perl 6: Transparadigm programming 101
+DESCRIPTION:Presented by Damian Conway (Thoughtstream). Perl 6 is a new 
+ multiparadigm language, in which you can easily combine functional, proc
+ edural, declarative, OO, and concurrent constructs, even within a single
+  subroutine, without losing readability or efficiency. This class explor
+ es some of the most interesting multi-paradigm features of Perl 6, using
+  familiar real-world examples stolen from every Programming 101 class yo
+ u've ever taken.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T170000
+DTSTART;TZID=US/Pacific:20150721T133000
+DTSTAMP:20150603T211112
+LOCATION:E143/144
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42668
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-13:30--42668
+SUMMARY:Go performance tutorial
+DESCRIPTION:Presented by Josh Bleecher Snyder (PayPal). This tutorial wi
+ ll enable you to understand and improve the performance of your Go progr
+ ams. We will do a deep dive into Go's powerful profiling and benchmarkin
+ g tools, and discuss basic and advanced optimization techniques.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T112000
+DTSTART;TZID=US/Pacific:20150722T104000
+DTSTAMP:20150504T181022
+LOCATION:E145
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42193
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-10:40--42193
+SUMMARY:99 ways to kill an open source project
+DESCRIPTION:Presented by Brandon Keepers (GitHub). Sometimes, learning w
+ hat not to do is the best path to success. This absurd, humorous, and co
+ mpletely serious talk will teach you everything you need to know to ensu
+ re that a healthy open source project meets its demise. Whether you are 
+ a user testing the open source waters, an experienced maintainer, or ope
+ n source ate your hard drive, discover techniques to ruin your corner of
+  the world.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T121000
+DTSTART;TZID=US/Pacific:20150722T113000
+DTSTAMP:20150506T220057
+LOCATION:E145
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41838
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-11:30--41838
+SUMMARY:InnerSource as the anti-silo: How open source style has broken s
+ ilos while strengthening systems at PayPal
+DESCRIPTION:Presented by Cedric Williams (PayPal). Maturing engineering 
+ organizations tend to coalesce into silos around products, technologies,
+  and business units. InnerSource uses proven open source approaches for 
+ development inside the firewall, bypassing the constraints of silo archi
+ tecture while increasing velocity and quality. This session will examine
+  how InnerSource is growing at PayPal and what has been learned so far.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T142000
+DTSTART;TZID=US/Pacific:20150722T134000
+DTSTAMP:20150501T190614
+LOCATION:E145
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41989
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-13:40--41989
+SUMMARY:Humane interviewing
+DESCRIPTION:Presented by Jay Goel (Rent the Runway). We often say that i
+ nterviews should be a two-way street, but it doesn’t always feel that wa
+ y. Here we talk about specific techniques for humanely interviewing engi
+ neers, and why this is good for business. We'll also talk about tips for
+  candidates that help move things along.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T151000
+DTSTART;TZID=US/Pacific:20150722T143000
+DTSTAMP:20150501T173155
+LOCATION:E145
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41505
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-14:30--41505
+SUMMARY:Creating trust organizations
+DESCRIPTION:Presented by Bruce Eckel (Mindview, LLC). Based on six years
+  of research and organization visits, I present the "Trust Organization 
+ Manifesto," a radically different and yet surprisingly well-tested set o
+ f guidelines for self-organizing a company where "work is joy."
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T165000
+DTSTART;TZID=US/Pacific:20150722T161000
+DTSTAMP:20150506T193810
+LOCATION:E145
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42319
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-16:10--42319
+SUMMARY:The Free Software Foundation, on the road for 30 years: Are we t
+ here yet, RMS?
+DESCRIPTION:Presented by John Sullivan (Free Software Foundation). The F
+ SF turns 30 this October. Don your freedom goggles and trip with its bea
+ rdless executive director through 30 years of entertaining memorabilia a
+ nd historical happenings (including "Who's this 'open source' kid and wh
+ y's he on my lawn?"), then emerge, blinking, in the present. What are th
+ e challenges for user freedom in the next 30 years and how do we build a
+  united movement to tackle them?
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T174000
+DTSTART;TZID=US/Pacific:20150722T170000
+DTSTAMP:20150501T183452
+LOCATION:E145
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41659
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-17:00--41659
+SUMMARY:CoreOS DNA on Debian
+DESCRIPTION:Presented by Patrick Galbraith (Hewlett Packard). The HP Adv
+ anced Technology Group recently created a proof of concept to build Core
+ OS components - Docker, Fleet, and Etcd - on top of Debian, using Ansibl
+ e and HP Cloud Virtual Machines to demonstrate the power and flexibility
+  of a clustered Docker architecture. This talk will cover how our team b
+ uilt this proof of concept and show a ELK Stack demonstration applicatio
+ n running on the cluster.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T112000
+DTSTART;TZID=US/Pacific:20150723T104000
+DTSTAMP:20150504T232801
+LOCATION:E145
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41847
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-10:40--41847
+SUMMARY:Steal this open source policy!
+DESCRIPTION:Presented by Van Lindberg (Rackspace). Developers know that 
+ participating in the open source community can be a win-win for both emp
+ loyers and employees. But how do you convince the legal department and e
+ xecutives? In this presentation we will share Rackspace's internal polic
+ y documents that allow all employees to participate in open source proje
+ cts, and explain the details that convinced everyone to let us put it in
+  place.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T121000
+DTSTART;TZID=US/Pacific:20150723T113000
+DTSTAMP:20150505T225735
+LOCATION:E145
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42067
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-11:30--42067
+SUMMARY:Grow an organization by planting volunteers
+DESCRIPTION:Presented by Stormy Peters (Mozilla), Avni Khatri (Kids on C
+ omputers). Most nonprofit organizations depend on volunteers. And most v
+ olunteer organizations are asked how in the world they recruit and keep 
+ volunteers.  While not every organization is the same, there are definit
+ ely some best practices that many open source software projects have dis
+ covered and evolved.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T142000
+DTSTART;TZID=US/Pacific:20150723T134000
+DTSTAMP:20150428T223758
+LOCATION:E145
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41809
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-13:40--41809
+SUMMARY:Leaping the chasm from proprietary to open:  A survivor's guide
+DESCRIPTION:Presented by Bryan Cantrill (Joyent). While leading several 
+ high-profile open source projects, Joyent has also historically had sign
+ ificant proprietary systems.  In November of last year, we open sourced 
+ these proprietary systems -- including our SmartDataCenter cloud orchest
+ ration system and our Manta scale-out storage system -- becoming an all 
+ open source company.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T151000
+DTSTART;TZID=US/Pacific:20150723T143000
+DTSTAMP:20150428T173252
+LOCATION:E145
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41468
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-14:30--41468
+SUMMARY:Creating an open source office: Lessons from Twitter
+DESCRIPTION:Presented by Chris Aniszczyk (Twitter). When companies start
+  adopting open source, they face common challenges, like how do you cont
+ ribute back or what do you even open source. Companies like Google, Inte
+ l, Facebook, and Twitter have chosen to establish open source offices to
+  facilitate working with open source communities. In this session, learn
+  lessons from Twitter on how to start your own open source office.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T165000
+DTSTART;TZID=US/Pacific:20150723T161000
+DTSTAMP:20150501T201205
+LOCATION:E145
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41159
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-16:10--41159
+SUMMARY:Building a successful organization by mastering failure
+DESCRIPTION:Presented by John Goulah (Etsy). The Etsy organization has g
+ rown by a significant amount over the last five years. As a company grow
+ s, more thought must be put into the techniques that it uses to communic
+ ate and deal with failures. This talk will cover several techniques that
+  have helped foster a Just Culture, one in which an effort is made to ba
+ lance both safety and accountability.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T174000
+DTSTART;TZID=US/Pacific:20150723T170000
+DTSTAMP:20150428T183340
+LOCATION:E145
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42489
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-17:00--42489
+SUMMARY:Build a community of practice, one PR at a time: Using GitHub to
+  teach the values of open source
+DESCRIPTION:Presented by Peter Bell (Ronin Labs). The pull request is bo
+ th a feature and a philosophy--it takes a stand on openness, collaborati
+ on and culture. While most PR use cases are straightforward, other novel
+  uses offer deeper learning opportunities. We’ll walk through different 
+ ways to deploy pull requests to model the values of open source, share u
+ nderstanding, learn from mistakes, and build a community of practice.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150724T104000
+DTSTART;TZID=US/Pacific:20150724T100000
+DTSTAMP:20150513T201919
+LOCATION:E145
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41801
+UID:http://www.oscon.com/open-source-2015--s2015-07-24-10:00--41801
+SUMMARY:How to use OSI's resources to change the open source world
+DESCRIPTION:Presented by Simon Phipps (Open Source Initiative), Deborah 
+ Bryant (Red Hat). The Open Source Initiative has changed from a licensin
+ g-focussed organisation to a force uniting open source projects, develop
+ ers, and advocates worldwide. Hear how it happened, what's happening nex
+ t, and why this is important to your career and business.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150724T115000
+DTSTART;TZID=US/Pacific:20150724T111000
+DTSTAMP:20150505T203716
+LOCATION:E145
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42183
+UID:http://www.oscon.com/open-source-2015--s2015-07-24-11:10--42183
+SUMMARY:Freedom and responsibility @Netflix: Centralized team in a decen
+ tralized world
+DESCRIPTION:Presented by Mike McGarr (Netflix). Engineering teams at Net
+ flix can follow the latest industry trends and sometimes they even creat
+ e them.  No one single team is responsible for innovation: does this gen
+ erate opportunity or waste or both? The Engineering Tools team helps to 
+ direct other teams’ experimentation toward new products, while preservin
+ g their own ability to innovate.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T123000
+DTSTART;TZID=US/Pacific:20150720T090000
+DTSTAMP:20150521T190218
+LOCATION:E145/146
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/40629
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-09:00--40629
+SUMMARY:Presentation Ninjutsu
+DESCRIPTION:Presented by Damian Conway (Thoughtstream). Over the past de
+ cade Damian Conway's popular "Presentation Aikido" class has explained a
+ nd demonstrated the fundamentals of giving great presentations. In this,
+  the long-awaited followup class, Damian delves even deeper into the art
+  and science of presentation, revealing the subtle and unexpected techni
+ ques that can lift your presentations from great to extraordinary.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T170000
+DTSTART;TZID=US/Pacific:20150720T133000
+DTSTAMP:20150508T183637
+LOCATION:E145/146
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42547
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-13:30--42547
+SUMMARY:AngularJS tutorial
+DESCRIPTION:Presented by Sam Helman (Flatiron Health). AngularJS is rela
+ tively new, meteorically popular, and functionally powerful. However, a 
+ lot of AngularJS’s workings are very opaque and confusing. In this tutor
+ ial, an updated version of the same tutorial from last year, my goal is 
+ to walk you through building a basic app, and introduce you to concepts 
+ and patterns that will allow you to comfortably dive further into using 
+ AngularJS.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T123000
+DTSTART;TZID=US/Pacific:20150721T090000
+DTSTAMP:20150707T180343
+LOCATION:E145/146
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41322
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-09:00--41322
+SUMMARY:Stop building insecure systems: Cryptography 101
+DESCRIPTION:Presented by Jarret Raim (Rackspace), Andrew Hartnett (Racks
+ pace). Attendees will learn general best practices for cryptography and 
+ key management, be able to generate, store, and verify passwords, protec
+ t data at rest with encryption, protect data from modification with sign
+ ing and verification techniques, and generate, store, and use keys secur
+ ely.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T170000
+DTSTART;TZID=US/Pacific:20150721T133000
+DTSTAMP:20150708T002539
+LOCATION:E145/146
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41150
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-13:30--41150
+SUMMARY:Becoming friends with Cassandra
+DESCRIPTION:Presented by Dani Traphagen (DataStax), Jon Haddad (DataStax
+ ). In this three-hour Cassandra tutorial, we’ll explore all the basics y
+ ou’ll need to become best buds with this radically scalable, always-on, 
+ and increasingly popular database solution.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T112000
+DTSTART;TZID=US/Pacific:20150722T104000
+DTSTAMP:20150505T231245
+LOCATION:E146
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41464
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-10:40--41464
+SUMMARY:It's metaphors all the way down
+DESCRIPTION:Presented by Brian Proffitt (Red Hat). Everything we do in t
+ echnology - operating systems, applications, systems administration - is
+  based on nothing solid and real, but rather conceptualizations and idea
+ s that we make accessible through metaphors. In fact, far from being "no
+ n-creative," nerd-types may be among the most creative storytellers in h
+ istory.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T121000
+DTSTART;TZID=US/Pacific:20150722T113000
+DTSTAMP:20150505T221056
+LOCATION:E146
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41644
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-11:30--41644
+SUMMARY:Say No like a boss!
+DESCRIPTION:Presented by Deb Nicholson (Open Invention Network). There's
+  always plenty to do in the world of free and open source software, but 
+ saying yes to it all eventually leads to burnout. Not every job, module 
+ or meeting is going to lead to more of the kinds of opportunities you wa
+ nt. When should you reinvent the wheel and when should you settle for so
+ mething that's good enough?
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T142000
+DTSTART;TZID=US/Pacific:20150722T134000
+DTSTAMP:20150501T212750
+LOCATION:E146
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/40721
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-13:40--40721
+SUMMARY:Fear of failing fast: How to avoid sabotaging your success
+DESCRIPTION:Presented by Leslie Hawthorn (Elastic), Amye Scavarda (Amye.
+ org). While it’s easy to pay lip service to the idea of innovating by fa
+ iling fast, humans are both neurally geared and financially incentivized
+  to avoid failure. How can we create an environment that makes failing f
+ ast safe for the participants and their organizations?
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T151000
+DTSTART;TZID=US/Pacific:20150722T143000
+DTSTAMP:20150501T180037
+LOCATION:E146
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42186
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-14:30--42186
+SUMMARY:Building your open resume
+DESCRIPTION:Presented by Mark Ferree (Chapter Three). It is not in your 
+ best interest to leave most of your work hidden away at your employer. G
+ itHub has created a showcase for your work, and hiring managers will spe
+ nd time looking through your work before you are invited to come in for 
+ an interview. I will cover strategies for increasing both the quality an
+ d quantity of your open source contributions to improve your open resume
+ .
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T165000
+DTSTART;TZID=US/Pacific:20150722T161000
+DTSTAMP:20150501T171036
+LOCATION:E146
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/40312
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-16:10--40312
+SUMMARY:Coding in the FLOW: Structuring your development session to prom
+ ote a state of flow
+DESCRIPTION:Presented by Caskey Dickson (GOOGLE). Did you know that some
+  development practices actively encourage flow while others prevent you 
+ from ever getting there in the first place? This talk will lay out the c
+ onditions of flow, what established programming techniques encourage it,
+  and strategies for finding ways to create flow sessions in your daily d
+ evelopment life, regardless of what your established software-developmen
+ t lifecycle is.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T174000
+DTSTART;TZID=US/Pacific:20150722T170000
+DTSTAMP:20150504T174154
+LOCATION:E146
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/40359
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-17:00--40359
+SUMMARY:Selling open source 101
+DESCRIPTION:Presented by Henrik Ingo (MongoDB). As open source has becom
+ e mainstream and a business, many companies face a knowledge gap and may
+  not even realize it: most executives and sales managers have no particu
+ lar experience in the dynamics of open source. Unfortunately, most open 
+ source folks have no experience in sales either! This session will help 
+ each group to understand, and apply, both the open source and sales part
+ s together.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T112000
+DTSTART;TZID=US/Pacific:20150723T104000
+DTSTAMP:20150504T210031
+LOCATION:E146
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41431
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-10:40--41431
+SUMMARY:Open source design: A love story
+DESCRIPTION:Presented by Una Kravets (IBM Design). When designers and de
+ velopers work together from the start, it produces better outcomes, more
+  usable products, and increased adoption. But how can we get designers i
+ nvolved and wanting to participate in the open source community? In orde
+ r to figure out how to fix it, we need to take a look at the barriers fo
+ r designers and how we can work together to influence change.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T121000
+DTSTART;TZID=US/Pacific:20150723T113000
+DTSTAMP:20150505T205611
+LOCATION:E146
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41448
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-11:30--41448
+SUMMARY:"You code like a sysadmin" - Impostor Syndrome for the modern de
+ veloper
+DESCRIPTION:Presented by Wade Minter (AdWerx). Modern software developme
+ nt places a high value on doing things The Right Way(tm). But what if yo
+ u're just someone with an idea, some coding knowledge, and a nontrivial 
+ amount of intimidation? In this session, a sysadmin-turned-developer wil
+ l take you through a battle with the demons of self-doubt, and help you 
+ discover the ONE CRAZY TRICK YOUR BRAIN DOESN'T WANT YOU TO KNOW!
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T142000
+DTSTART;TZID=US/Pacific:20150723T134000
+DTSTAMP:20150506T213907
+LOCATION:E146
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/40214
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-13:40--40214
+SUMMARY:Remote working / asynchronous working
+DESCRIPTION:Presented by Eli White (php[architect]). I've worked as a 10
+ 0% remote employee for six different companies. Through this, I've learn
+ ed the good, the bad, and the ugly about remote work (as well as time sh
+ ifted asynchronous work). In this session we will discuss the benefits a
+ nd drawbacks of remote work, for both the employee and the company. Lear
+ n the tricks needed, both procedural and technological, to make this pos
+ sible!
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T151000
+DTSTART;TZID=US/Pacific:20150723T143000
+DTSTAMP:20150429T000700
+LOCATION:E146
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42462
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-14:30--42462
+SUMMARY:Nobody should know more about you than you do
+DESCRIPTION:Presented by Alistair Croll (Solve For Interesting). In the 
+ next decade, data-driven feeds will become the primary tool with which w
+ e manage our lives. Access to that data—much of which lives behind walle
+ d gardens, or profitable arbitrage—is fast becoming a moral issue. In th
+ is session, Alistair Croll looks at the promises and perils of big data 
+ as it finds its way into our lives, and makes far too many unreasonable 
+ predictions along the way.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T165000
+DTSTART;TZID=US/Pacific:20150723T161000
+DTSTAMP:20150506T182124
+LOCATION:E146
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41188
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-16:10--41188
+SUMMARY:Open source working
+DESCRIPTION:Presented by Kyle Simpson (Getify Solutions). Open source yo
+ ur job search and career. Open source finding and hiring candidates. Ope
+ n source the talent pool.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T174000
+DTSTART;TZID=US/Pacific:20150723T170000
+DTSTAMP:20150501T221912
+LOCATION:E146
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41197
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-17:00--41197
+SUMMARY:Telling your story: Speaking for non-speakers
+DESCRIPTION:Presented by Kirsten Hunter (Akamai). Many conference attend
+ ees come year after year without giving presentations.  The sense that t
+ here's a high bar for perfection is pervasive, and people are afraid of 
+ being "wrong."  Everyone has a story to tell about a problem they've sol
+ ved or issues they've tackled.  Learn how to share your experiences with
+ out fear, and join the speaker community!
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150724T104000
+DTSTART;TZID=US/Pacific:20150724T100000
+DTSTAMP:20150520T202043
+LOCATION:E146
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41984
+UID:http://www.oscon.com/open-source-2015--s2015-07-24-10:00--41984
+SUMMARY:Help! I want to contribute to an open source project but my boss
+  says no
+DESCRIPTION:Presented by Patrick McFadin (Datastax). You love using open
+  source software. It's done right by you and now you want to contribute 
+ back. You get your patch all ready and... the boss says No! Don't feel a
+ lone. Enterprises everywhere are trying to figure this out. I'll walk yo
+ u through the risks to business that actually exist and how you can help
+  manage them. Maybe armed with this information your boss will say... Ye
+ s!
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150724T115000
+DTSTART;TZID=US/Pacific:20150724T111000
+DTSTAMP:20150428T184253
+LOCATION:E146
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41513
+UID:http://www.oscon.com/open-source-2015--s2015-07-24-11:10--41513
+SUMMARY:Constructive conflict resolution
+DESCRIPTION:Presented by Donna Benjamin (Creative Contingencies), Gina L
+ ikins (Red Hat). Conflict can be constructive. Testing ideas by challeng
+ ing them with alternatives is a useful process. But it can be uncomforta
+ ble and confronting for many people. Let's discuss how we can build a cu
+ lture of respect to embrace the positive aspects of conflict and work to
+ gether better.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T123000
+DTSTART;TZID=US/Pacific:20150720T090000
+DTSTAMP:20150623T144821
+LOCATION:E147/148
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44660
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-09:00--44660
+SUMMARY:Hacking with and on Atom
+DESCRIPTION:Presented by Daniel Hengeveld (GitHub), Jessica Lord (GitHub
+ ), Kevin Sawicki (GitHub). Learn the basics of customizing Atom and deve
+ loping Atom packages.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T170000
+DTSTART;TZID=US/Pacific:20150720T133000
+DTSTAMP:20150623T145527
+LOCATION:E147/148
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42627
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-13:30--42627
+SUMMARY:Design Sprints for Developers
+DESCRIPTION:Presented by C Todd Lombardo (Constant Contact's InnoLoft). 
+ Design sprints are a time-boxed, disciplined way to get validation on a 
+ concept so you write code that gets used and not trashed. This workshop 
+ will take you through a mini-design sprint so you can get first-hand exp
+ erience of what it's like to participate in one. You’ll walk away with i
+ deas and the knowledge of how to implement these frameworks in your orga
+ nization.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T123000
+DTSTART;TZID=US/Pacific:20150721T090000
+DTSTAMP:20150623T150555
+LOCATION:E147/148
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41752
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-09:00--41752
+SUMMARY:Painlessly functional and concurrent: An introduction to Elixir
+DESCRIPTION:Presented by Marc Sugiyama (Erlang Solutions, Inc). Elixir i
+ s a functional programming language with a familiar syntax.  In this tut
+ orial we’ll explore the basics of the language, and why you want to use 
+ Elixir to write concurrent, scalable, and robust programs.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T170000
+DTSTART;TZID=US/Pacific:20150721T133000
+DTSTAMP:20150623T151055
+LOCATION:E147/148
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42542
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-13:30--42542
+SUMMARY:Erlang: Inspiring software
+DESCRIPTION:Presented by Garrett Smith (CloudBees), Francesco Cesarini (
+ Erlang Solutions Ltd). Erlang is a programming language designed for the
+  internet age, although it predates the web. It is a language designed f
+ or multi-core computers, although it predates them too. In this tutorial
+ , Francesco and Garrett will present the features that make Erlang a tre
+ ndsetter and give you a context for using it as strategic tool in your s
+ oftware arsenal.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T123000
+DTSTART;TZID=US/Pacific:20150720T090000
+DTSTAMP:20150504T234951
+LOCATION:F150
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42643
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-09:00--42643
+SUMMARY:Introduction to modern PHP
+DESCRIPTION:Presented by Josh Lockhart (New Media Campaigns). Are you a 
+ PHP beginner or a seasoned veteran upgrading from PHP 4 to PHP 5? Have y
+ ou read about "PSR"s or the PHP-FIG but don't know what they are? Josh L
+ ockhart will introduce you to modern PHP practices and techniques. Learn
+  about namespaces, traits, and generators. Find out how to use, build, a
+ nd share components. And find out how to continue learning and get invol
+ ved with your PHP community.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T170000
+DTSTART;TZID=US/Pacific:20150720T133000
+DTSTAMP:20150707T204440
+LOCATION:F150
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42587
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-13:30--42587
+SUMMARY:How to run the next generation of enterprise “killer apps” on Ap
+ ache Mesos
+DESCRIPTION:Presented by Connor Doyle (Mesosphere.io), Niklas Nielsen (M
+ esosphere, Inc.). In this workshop, experts from Mesosphere will demonst
+ rate how to operate today’s most popular distributed frameworks on Apach
+ e Mesos - from installation, through command line interface, monitoring,
+  and everything in between, in real production scenarios across clustere
+ d resources.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T170000
+DTSTART;TZID=US/Pacific:20150721T090000
+DTSTAMP:20150701T161512
+LOCATION:F150
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/43976
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-09:00--43976
+SUMMARY:Open Cloud Day (Sponsored by Booz Allen Hamilton, IBM, Intel and
+  Red Hat)
+DESCRIPTION:Open Cloud Day at OSCON will cover the latest innovations in
+  public and private clouds, IaaS, and PaaS platforms. You'll learn from 
+ industry practitioners from a variety of platforms, who will share their
+  expertise, and provide you with a vision of where open source in the cl
+ oud is heading.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T123000
+DTSTART;TZID=US/Pacific:20150720T090000
+DTSTAMP:20150623T144821
+LOCATION:F151
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42512
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-09:00--42512
+SUMMARY:Community leadership workshop
+DESCRIPTION:Presented by Jono Bacon (XPRIZE Foundation). In this new wor
+ kshop, Jono Bacon, leading community manager from Ubuntu and XPRIZE, aut
+ hor of _The Art of Community_, and founder of the Community Leadership S
+ ummit, will share key lessons for how to build a strong and empowered co
+ mmunity, navigate internal teams, build buy-in and governance, manage co
+ nflict, and more. Come and get the behind-the-scenes recipe for building
+  a strong community.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T170000
+DTSTART;TZID=US/Pacific:20150721T090000
+DTSTAMP:20150625T213116
+LOCATION:F151
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/45257
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-09:00--45257
+SUMMARY:Open source email reboot! - Open messaging day
+DESCRIPTION:Presented by Pierre Chamberland (Netmail). Learn and contrib
+ ute to modernizing open source messaging. Meet technologists from FastMa
+ il, Cyrus IMAP, Atmail, MXTools, OpenIO, and Spamhaus, who are re-bootin
+ g email with smarter clients, hyper-scale storage grids, secured transpo
+ rt, and high performance virtualization. Discover exciting tools that ca
+ n be used to develop cool new apps that can interoperate with existing s
+ ystems and devices.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T170000
+DTSTART;TZID=US/Pacific:20150721T090000
+DTSTAMP:20150707T162934
+LOCATION:Portland Ballroom
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/45281
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-09:00--45281
+SUMMARY:Google Presents: Kubernetes 1.0 launch
+DESCRIPTION:Experience a first look into the future of container orchest
+ ration at the Kubernetes 1.0 Launch. Come and learn about the Kubernetes
+  project, its future, and how real people are using Kubernetes for their
+  applications
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T112000
+DTSTART;TZID=US/Pacific:20150722T104000
+DTSTAMP:20150520T192313
+LOCATION:F 147/148
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41183
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-10:40--41183
+SUMMARY:Hacking "Roller Coaster Tycoon" with genetic algorithms and Go
+DESCRIPTION:Presented by Kevin Burke (Shyp). You might be good at design
+ ing coasters in "Roller Coaster Tycoon," but you could make even cooler 
+ coasters if you let Go build them for you. We'll look a little at RCT's 
+ code (written in x86) and how to reverse-engineer it. You'll learn how t
+ o design good genetic algorithms. Finally, we'll discuss the advantages 
+ of using Go's standard library for a project like this.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T121000
+DTSTART;TZID=US/Pacific:20150722T113000
+DTSTAMP:20150615T184143
+LOCATION:F 147/148
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42013
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-11:30--42013
+SUMMARY:What every programmer should know about floating-point arithmeti
+ c
+DESCRIPTION:Presented by Joe Darcy (Oracle). Learn about how floating-po
+ int arithmetic approximates real arithmetic, and lessons for more effect
+ ive (and less surprising) numerical programming.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T142000
+DTSTART;TZID=US/Pacific:20150722T134000
+DTSTAMP:20150504T171917
+LOCATION:F 147/148
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41487
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-13:40--41487
+SUMMARY:You've got questions, we've got answers!
+DESCRIPTION:Presented by Grant Ingersoll (Lucidworks). Ever wonder how W
+ atson beat all comers in Jeopardy or how Siri or Google Now work?  Think
+ ing about deploying question answering (QA) technology in your applicati
+ on?  QA and NLP technology have finally hit the mainstream, and are maki
+ ng information access more powerful every day.  The best part?  Open sou
+ rce technologies make it easier than ever to build and deploy question a
+ nswering technology!
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T151000
+DTSTART;TZID=US/Pacific:20150722T143000
+DTSTAMP:20150428T181138
+LOCATION:F 147/148
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41781
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-14:30--41781
+SUMMARY:Open source licensing on GitHub by the numbers
+DESCRIPTION:Presented by Ben Balter (GitHub, Inc.), Tal Niv (GitHub). Op
+ en source isn't open source without a license. GitHub is the de facto hu
+ b for creating and sharing open source software, but how much of it is t
+ ruly open? How has license usage changed over time? How does licensing e
+ ffect contribution, reuse, and project evolution? Join Ben Balter and Ta
+ l Niv, two of GitHub's legals for a quantitative analysis of license usa
+ ge across all of GitHub's 19M repos.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T165000
+DTSTART;TZID=US/Pacific:20150722T161000
+DTSTAMP:20150501T202514
+LOCATION:F 147/148
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41632
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-16:10--41632
+SUMMARY:Bootstrapping a recommendation engine
+DESCRIPTION:Presented by Max De Marzi (NeoTechnology). Do you need to bu
+ ild a recommendation engine like yesterday and have no idea where to sta
+ rt? How to get over the cold start problem? How to get some initial data
+ ? How do you know if its even working? Learn how to get past all that an
+ d get up and recommending quickly.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T174000
+DTSTART;TZID=US/Pacific:20150722T170000
+DTSTAMP:20150505T201624
+LOCATION:F 147/148
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41002
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-17:00--41002
+SUMMARY:Solve optimization problems using swarm intelligence
+DESCRIPTION:Presented by James McCaffrey (Microsoft). Swarm intelligence
+  (SI) algorithms mimic the behaviors of groups such as flocks of birds a
+ nd schools of fish. This session describes in detail four major SI algor
+ ithms: amoeba method optimization, particle swam optimization, simulated
+  bee colony optimization, and firefly algorithm optimization. Attendees 
+ will receive Python source code for each algorithm.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T112000
+DTSTART;TZID=US/Pacific:20150723T104000
+DTSTAMP:20150501T180712
+LOCATION:F 147/148
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41617
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-10:40--41617
+SUMMARY:Network analysis: People and open source communities
+DESCRIPTION:Presented by Dawn Foster (University of Greenwich). The real
+  magic in any community comes from the people. I will show you tools and
+  techniques for performing network analysis, to look at the people in yo
+ ur community along with the relationships between them. Why settle for b
+ oring numbers and line charts to describe your community when you can do
+  cool visualizations that show how people connect within your open sourc
+ e community?
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T121000
+DTSTART;TZID=US/Pacific:20150723T113000
+DTSTAMP:20150506T200117
+LOCATION:F 147/148
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41724
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-11:30--41724
+SUMMARY:A brief history of rendering math (and its future online)
+DESCRIPTION:Presented by Garen Torikian (GitHub). The way math equations
+  are written and represented have a long history that's woven into compu
+ ter science. However, rendering math for the web has been a challenge. T
+ his talk explores the pursuit of rendering math beautifully for the web,
+  culminating in the creation of a library that integrates with markup fo
+ rmats like Markdown and AsciiDoc.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T142000
+DTSTART;TZID=US/Pacific:20150723T134000
+DTSTAMP:20150520T174555
+LOCATION:F 147/148
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41611
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-13:40--41611
+SUMMARY:Data transformation superpowers with digital signal processing
+DESCRIPTION:Presented by Amy Boyle (Washington State University). Learn 
+ how digital signal processing can help you look at data, and even the wo
+ rld around you, with a new critical eye. Gain an understanding of the me
+ thods behind speech recognition, image manipulation, data compression, a
+ nd more.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T151000
+DTSTART;TZID=US/Pacific:20150723T143000
+DTSTAMP:20150505T204447
+LOCATION:F 147/148
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41208
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-14:30--41208
+SUMMARY:Unconventional programming with chemical computing
+DESCRIPTION:Presented by Carin Meier (Cognitect). Take a step back from 
+ your normal programming approach and discover a new way of looking at pr
+ oblems.  All living organisms' information systems are based on chemical
+  processes.  What can we learn by using this metaphor of chemistry in ou
+ r programming?
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T165000
+DTSTART;TZID=US/Pacific:20150723T161000
+DTSTAMP:20150609T174706
+LOCATION:F 147/148
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41508
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-16:10--41508
+SUMMARY:Applications of hierarchal temporal memory algorithm tools to en
+ ergy demand analysis
+DESCRIPTION:Presented by Patrick Barton (O'Reilly School of Technology).
+  This talk addresses improving the ability of hierarchal temporal memory
+  (HTM) to predict electricity demand, helping the algorithm by providing
+  some of the complementarity data streams currently applied to demand an
+ alysis, and including some goodness-of-fit metrics that address known ch
+ aracteristics of electric load.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T174000
+DTSTART;TZID=US/Pacific:20150723T170000
+DTSTAMP:20150506T195422
+LOCATION:F 147/148
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41265
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-17:00--41265
+SUMMARY:Anomaly detection with NuPIC
+DESCRIPTION:Presented by Matthew Taylor (Numenta). What if you had softw
+ are that tracked location history so well it could remember all the walk
+ s you take, all your commutes, and even the quests you take in your favo
+ rite video games? With this level of detail captured and a bit of algori
+ thmic brilliance, NuPIC allows for instant anomaly detection, and in the
+  process, opens up a whole new world of intelligent applications for pat
+ tern recognition.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150724T104000
+DTSTART;TZID=US/Pacific:20150724T100000
+DTSTAMP:20150506T222251
+LOCATION:F 147/148
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41956
+UID:http://www.oscon.com/open-source-2015--s2015-07-24-10:00--41956
+SUMMARY:Mocha.jl - Deep learning for Julia
+DESCRIPTION:Presented by Chiyuan Zhang (MIT). Mocha.jl is an efficient a
+ nd flexible deep learning framework for Julia. It supports multiple comp
+ utation backends, leading to 20~30 times faster training on a modern GPU
+  device. We will use an example to illustrate the user interfaces of Moc
+ ha.jl and also introduce the design and architecture behind the library 
+ implementations.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150724T115000
+DTSTART;TZID=US/Pacific:20150724T111000
+DTSTAMP:20150505T171804
+LOCATION:F 147/148
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/41535
+UID:http://www.oscon.com/open-source-2015--s2015-07-24-11:10--41535
+SUMMARY:The Mün and back - a Kerbal tale
+DESCRIPTION:Presented by Alasdair Allan (Babilim Light Industries), Paul
+  Fenwick (Perl Training Australia), Jonathon Manning (Secret Lab Pty. Lt
+ d.), Paris Buttfield-Addison (Secret Lab Pty. Ltd.), Tim Nugent (lonely.
+ coffee). Join the authors of "The Kerbal Book" on a panel where they reg
+ ale you with tales of their adventures in the Kerbal Space Program, the 
+ increasingly popular and disturbingly realistic space programme simulato
+ r game enjoyed by geeks around the world. Learn how and why you should g
+ o to space, and what you can learn from it! Science will be involved.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T112000
+DTSTART;TZID=US/Pacific:20150722T104000
+DTSTAMP:20150610T202121
+LOCATION:E141
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44902
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-10:40--44902
+SUMMARY:The cursed oracle: Cassandra's past, present and future
+DESCRIPTION:Presented by Rachel Pedreschi (DataStax). With 1000's of Cas
+ sandra users worldwide, we claim victory on how to keep a distributed da
+ tabase always available. Now it is time to tackle all the smaller proble
+ ms that help a database go from great to spectacular. Developer producti
+ vity, ease of use, and a rich ecosystem are firmly in our target. Let's 
+ talk about what has been added and what's coming and why.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T112000
+DTSTART;TZID=US/Pacific:20150723T104000
+DTSTAMP:20150615T183054
+LOCATION:E141
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44957
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-10:40--44957
+SUMMARY:The architecture of continuous innovation
+DESCRIPTION:Presented by Chip Childers (Cloud Foundry Foundation). This 
+ talk takes the audience inside the architectural foundation of a modern 
+ cloud native platform.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T121000
+DTSTART;TZID=US/Pacific:20150722T113000
+DTSTAMP:20150617T221828
+LOCATION:E141
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44961
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-11:30--44961
+SUMMARY:"Unique but fast!" - Make your Tizen GUI application brilliant
+DESCRIPTION:Presented by ChunEon Park (Samsung Electronics). Recently, S
+ amsung has released various products powered by Tizen, including the NX 
+ Camera Series, Z1 Smartphone, Samsung Gear, and SUHD TVs. Tizen is a bra
+ nd new platform, so developers can easily enter and have a strong presen
+ ce in the Tizen applications market.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T151000
+DTSTART;TZID=US/Pacific:20150723T143000
+DTSTAMP:20150617T213107
+LOCATION:E141
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44956
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-14:30--44956
+SUMMARY:Introduction to IoT.JS
+DESCRIPTION:Presented by Kyeongwoon Lee (Samsung Electronics). IoT.JS is
+  for JavaScript developers who want to write IoT services on small devic
+ es. It provides programmable IoT spaces with full JavaScript functionali
+ ty.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T174000
+DTSTART;TZID=US/Pacific:20150722T170000
+DTSTAMP:20150622T181448
+LOCATION:E141
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44969
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-17:00--44969
+SUMMARY:Offline-first mobile web apps with PouchDB, IBM Cloudant, and IB
+ M Bluemix
+DESCRIPTION:Presented by Bradley Holt (IBM Cloudant). Mobile web apps sh
+ ouldn't stop working when there's no network connection. Based on Apache
+  CouchDB, PouchDB is an open source syncing JavaScript database that run
+ s within a web browser. Learn how to use HTML5, PouchDB, IBM Cloudant, a
+ nd IBM Bluemix to build and deploy offline-first mobile web apps that pr
+ ovide a better, faster user experience both offline and online.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T151000
+DTSTART;TZID=US/Pacific:20150722T143000
+DTSTAMP:20150622T192943
+LOCATION:E141
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/45053
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-14:30--45053
+SUMMARY:Ironic: A modern approach to hardware provisioning
+DESCRIPTION:Presented by Devananda van der Veen (HP Cloud). Ironic is a 
+ modern tool for hardware provisioning. Combining a RESTful API, scalable
+  control plane, and pluggable hardware drivers, Ironic installs operatin
+ g systems efficiently and repeatably on diverse hardware. We will demons
+ trate Ironic with Ansible, install, build, and deploy a machine image, a
+ nd discuss the project's architecture, history, and goals. Deep knowledg
+ e is not required.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T142000
+DTSTART;TZID=US/Pacific:20150723T134000
+DTSTAMP:20150624T211526
+LOCATION:E141
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44966
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-13:40--44966
+SUMMARY:Capital One opens up to open source
+DESCRIPTION:Presented by Dan  Makoski  (Capital One). Dan Makoski, VP de
+ sign, will share how the nation’s largest direct bank is using open sour
+ ce concepts to reinvent products and services, redesign digital experien
+ ces, and reimagine commercials – connecting people and money in more mea
+ ningful ways. Join Dan for a lively discussion about how Capital One vie
+ ws the intersection of code, creativity, customers, and currency.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T123000
+DTSTART;TZID=US/Pacific:20150721T090000
+DTSTAMP:20150624T203457
+LOCATION:E141
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/45263
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-09:00--45263
+SUMMARY:OpenStack basics -- featuring HP Helion OpenStack
+DESCRIPTION:Presented by Christopher Cannon (Hewlett-Packard). This is a
+ n interactive, informative session for those getting started or wishing 
+ to learn more about OpenStack.  Join Chris Cannon from the HP Cloud Team
+  for an overview of OpenStack, and a hands-on introduction to HP Helion 
+ OpenStack.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T170000
+DTSTART;TZID=US/Pacific:20150721T133000
+DTSTAMP:20150706T231651
+LOCATION:E141
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44990
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-13:30--44990
+SUMMARY:Developing and deploying cloud native apps on Cloud Foundry and 
+ OpenStack with HP Helion
+DESCRIPTION:Presented by Rajeev Pandey (Hewlett-Packard Company), Sujay 
+ Maheshwari (HP Helion). In this tutorial, we will explore different ways
+  to develop and deploy applications to the cloud via the open source Clo
+ ud Foundry and OpenStack environments. This will be a hands-on session w
+ here participants will have free access to a Helion cluster for learning
+  and experimentation. The information covered will be applicable to any 
+ OpenStack and Cloud Foundry environment.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T142000
+DTSTART;TZID=US/Pacific:20150722T134000
+DTSTAMP:20150706T233420
+LOCATION:E141
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/45327
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-13:40--45327
+SUMMARY:Evolution of information security threats
+DESCRIPTION:Presented by Jarret Raim (Rackspace), Laurens Van Houtven (R
+ ackspace). The landscape of information security has changed significant
+ ly over the last few years. Increasing amounts of economic value are dir
+ ectly linked to computer infrastructure, making that infrastructure incr
+ easingly interesting as a target for malicious actors, both state and pr
+ ivate. In this talk, we'll explore this evolving problem space, and how 
+ Rackspace is helping solve problems in this space.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T121000
+DTSTART;TZID=US/Pacific:20150723T113000
+DTSTAMP:20150707T215250
+LOCATION:E141
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/45355
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-11:30--45355
+SUMMARY:Open source at HP: A fresh perspective
+DESCRIPTION:Presented by Bdale Garbee (HP). This session will provide a 
+ rare opportunity to hear perceptions of the current state of the IT univ
+ erse and a fresh perspective on corporate engagement with open source, f
+ rom someone applying more than 35 years of continuous involvement in fre
+ e software, decades of community leadership, and unique experience guidi
+ ng open source activities at major corporations.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T112000
+DTSTART;TZID=US/Pacific:20150723T104000
+DTSTAMP:20150610T202633
+LOCATION:E142
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/43710
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-10:40--43710
+SUMMARY:Everything I wish I knew when I started using GitHub
+DESCRIPTION:Presented by Brent Beer (GitHub). GitHub is a large and fant
+ astic place with everything you could ever want and more for software de
+ velopment, but are you using everything it has to offer? Whether you've 
+ used GitHub for a while now, or are just starting out, come learn the be
+ st ways to use the platform to its fullest potential.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T121000
+DTSTART;TZID=US/Pacific:20150722T113000
+DTSTAMP:20150615T211021
+LOCATION:E142
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44965
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-11:30--44965
+SUMMARY:How your company can become a good open source citizen
+DESCRIPTION:Presented by Jared Smith (Bluehost). We'll discuss concrete 
+ steps your company can take to become a good citizen in various open sou
+ rce communities, strategies to influence upper management and show them 
+ that it's in their best interest to become more involved with open sourc
+ e, and some of my experiences with companies I've worked for and how I w
+ as able to get them to become more involved with free and open source so
+ ftware.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T123000
+DTSTART;TZID=US/Pacific:20150721T090000
+DTSTAMP:20150617T220110
+LOCATION:E142
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44875
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-09:00--44875
+SUMMARY:Build your first Internet of Things app today with open source
+DESCRIPTION:Presented by Fred Melo (Pivotal), William Markito Oliveira (
+ Pivotal). In less than half a day, this hands-on workshop will show you 
+ how to leverage open source software like Apache Geode, Spring XD, Docke
+ r, and Cloud Foundry/Lattice to quickly build a complete IoT solution. T
+ he Internet of Things requires new applications to consume data that str
+ eams in from connected devices, and apply advanced real-time analytics.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T112000
+DTSTART;TZID=US/Pacific:20150722T104000
+DTSTAMP:20150617T214144
+LOCATION:E142
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44991
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-10:40--44991
+SUMMARY:Streamlining and automating data ingestion into Hadoop
+DESCRIPTION:Presented by Sastry Malladi (StubHub), Raji Arasu (StubHub).
+  Everyone wants to leverage Hadoop for their data processing needs, whet
+ her for real-time processing or batch processing; but there is no single
+  common way to bring data from a variety of data sources and types into 
+ Hadoop in an automated fashion. In this talk we cover an approach that w
+ e took, and present the generic ingestion framework we developed that le
+ verages Flume, Kafka, and others.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T142000
+DTSTART;TZID=US/Pacific:20150722T134000
+DTSTAMP:20150617T223953
+LOCATION:E142
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44997
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-13:40--44997
+SUMMARY:Take control of your applications
+DESCRIPTION:Presented by Matt Quill (F5 Networks). Take advantage of F5 
+ scalable application delivery services to accelerate your application de
+ velopment process and migration to cloud architectures.  Integrate with 
+ open source orchestration and cloud frameworks Puppet, Chef, Ansible, an
+ d OpenStack, enable automation and management of entire application stac
+ ks, starting at the server level and moving up to network and security s
+ ervices.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T151000
+DTSTART;TZID=US/Pacific:20150722T143000
+DTSTAMP:20150617T223037
+LOCATION:E142
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44962
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-14:30--44962
+SUMMARY:IoTivity and the Internet of Open Source Things
+DESCRIPTION:Presented by Soohong Park (Samsung). This session will give 
+ an overview of what the various interpretations of the Internet of Thing
+ s actually are, and the technologies behind them. It will talk about the
+  IoTivity project, what it is trying to solve, and how it is going about
+  that, including its governance structure and especially its unique rela
+ tionship with the Open Interconnect Consortium.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T121000
+DTSTART;TZID=US/Pacific:20150723T113000
+DTSTAMP:20150626T212439
+LOCATION:E142
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/45153
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-11:30--45153
+SUMMARY:Accelerating the core of the cloud
+DESCRIPTION:Presented by Dave  Stewart (Intel). In this presentation, we
+ ’ll talk about the work Intel is doing to improve server dynamic languag
+ es, some of the successes we’ve achieved as well as future challenges an
+ d how we can help.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T170000
+DTSTART;TZID=US/Pacific:20150721T133000
+DTSTAMP:20150706T214813
+LOCATION:E142
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/45358
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-13:30--45358
+SUMMARY:Spark R: Improving functionality and performance
+DESCRIPTION:Presented by Paco Nathan (O'Reilly Media), Haichuan Wang (Hu
+ awei), Jacky Lee (Huawei technology), Vimaldas Das Kammath (Huawei). Spa
+ rk R is a light-weight frontend to use Apache Spark from R, which enable
+ s users run R analysis tasks on a cluster with the support of Spark. In 
+ this talk, we will present some progresses in improving Spark R’s functi
+ onality and performance, and one real world application of Spark R about
+  modeling data centers.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T165000
+DTSTART;TZID=US/Pacific:20150722T161000
+DTSTAMP:20150708T170706
+LOCATION:E142
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/45357
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-16:10--45357
+SUMMARY:Software Operations Solutions Architect
+DESCRIPTION:Presented by Stevan Arychuk (New Relic). This presentation w
+ ill explore how DevOps principles can be used to mitigate some of the as
+ sociated challenges, or make things worse if not done properly. Join us 
+ for a deep dive on operational and architectural concerns that surface w
+ ith modern architecture deployments.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T112000
+DTSTART;TZID=US/Pacific:20150722T104000
+DTSTAMP:20150615T181357
+LOCATION:E 143/144
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44897
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-10:40--44897
+SUMMARY:No more web app headaches!
+DESCRIPTION:Presented by Janina Bläsius (SAP SE), Michael Graf (SAP SE).
+  Nowadays, there’s a wide variety of devices, platforms, and screen size
+ s on which web apps can be run. What if your web app was responsive, ada
+ ptive, and able to run on all devices without you having to take care of
+  all the details? We will demonstrate how to build well-designed web app
+ s based on the example of an app we created for one of the most loved sp
+ orts in Germany: soccer.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T121000
+DTSTART;TZID=US/Pacific:20150722T113000
+DTSTAMP:20150615T200537
+LOCATION:E 143/144
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44931
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-11:30--44931
+SUMMARY:Cache money: Tips for going fast in a slow world
+DESCRIPTION:Presented by Michael May (Fastly). When it comes to caching,
+  we fall into two categories - those who make phat stacks of cache money
+  and those who suffer from cache anxiety. In this talk, we’ll cover HTTP
+  caching, old and new strategies for caching historically ‘uncacheable’ 
+ content, and secret features of HTTP accelerators like Varnish.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T112000
+DTSTART;TZID=US/Pacific:20150723T104000
+DTSTAMP:20150617T211900
+LOCATION:E 143/144
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44989
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-10:40--44989
+SUMMARY:Filtering in OpenStack Nova for fun, efficiency, and profit: The
+  anatomy of an OpenStack filter
+DESCRIPTION:Presented by Harold Hannon (SoftLayer). Part of the challeng
+ e of running a production OpenStack deployment can be scheduling instanc
+ es.  There are many deployment options; how do you get the guest VM to t
+ he correct pool?  How do you efficiently assign guests to hosts?  What i
+ f you have pools for specialized deployments?  We'll look at filters, di
+ ssect how they work, and how you can leverage them to solve real-world i
+ ssues.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T142000
+DTSTART;TZID=US/Pacific:20150723T134000
+DTSTAMP:20150622T185548
+LOCATION:E 143/144
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/45028
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-13:40--45028
+SUMMARY:High scale relational storage at Salesforce built with Apache HB
+ ase and Apache Phoenix
+DESCRIPTION:Presented by Andrew Purtell (Salesforce). This session will 
+ cover how the Data Platform and Services group at Salesforce.com built a
+  multitenant storage platform, that supports structured relational data 
+ access using the open source nonrelational scale-out datastore Apache HB
+ ase and its open source "SQL skin" Apache Phoenix.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T121000
+DTSTART;TZID=US/Pacific:20150723T113000
+DTSTAMP:20150624T214002
+LOCATION:E 143/144
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/45075
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-11:30--45075
+SUMMARY:Case studies in success: Exploiting the open source Linux ecosys
+ tem to drive rapid innovation and higher value
+DESCRIPTION:Presented by Jim Wasko (IBM). In this session, we will share
+  case studies and use cases of developers who have successfully exploite
+ d open source technology using IBM z Systems and Power. We will focus on
+  the application development, databases, cloud infrastructure, and big d
+ ata/analytics categories along with ISV partnerships that can help you g
+ et the most out of your open source projects.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T151000
+DTSTART;TZID=US/Pacific:20150722T143000
+DTSTAMP:20150701T174908
+LOCATION:E 143/144
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/45251
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-14:30--45251
+SUMMARY:Open community for container technology: What does this mean to 
+ us?
+DESCRIPTION:Presented by Yujie Du (Huawei Technologies). Why do we need 
+ an open source way when an emerging technology hits the world's largest 
+ market, China? Huawei would help the China community link up with the gl
+ obal community.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T151000
+DTSTART;TZID=US/Pacific:20150723T143000
+DTSTAMP:20150701T190838
+LOCATION:E 143/144
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/45318
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-14:30--45318
+SUMMARY:Getting the most out of code review
+DESCRIPTION:Presented by Stephanie Wagner (Namely). Code reviews are one
+  of the best ways to improve code quality - however, they can be even mo
+ re complex than writing the code itself. This talk will help you underst
+ and how to conduct effective code reviews and benefit from a strong peer
+  review culture.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T170000
+DTSTART;TZID=US/Pacific:20150720T090000
+DTSTAMP:20150707T225111
+LOCATION:E141
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/45373
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-09:00--45373
+SUMMARY:Kubernetes Bootcamp: Get up to speed with Docker and Kubernetes
+DESCRIPTION:Presented by Michael Hausenblas (Mesosphere), Zed Shaw (Meso
+ sphere). This one-day course provides you with an end-to-end understandi
+ ng of Linux containers and how to operate and orchestrate them at scale.
+  It will teach you about the low-level concepts that make up Linux conta
+ iners, best practices on Docker containers, as well as how to orchestrat
+ e them using Kubernetes.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T170000
+DTSTART;TZID=US/Pacific:20150720T090000
+DTSTAMP:20150612T233810
+LOCATION:D130
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44066
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-09:00--44066
+SUMMARY:Microservices – Why, what and how to get there
+DESCRIPTION:Presented by Adrian Cockcroft (Battery Ventures). Adrian wil
+ l run a two-day training class at OSCON. The class will go into more dep
+ th on the business need for speed that leads to microservices, and the c
+ haracteristics of existing microservice architectures. In addition there
+  will be a hands-on exercise to model your existing architecture, a futu
+ re state, and the step by step migration to get there.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T170000
+DTSTART;TZID=US/Pacific:20150721T090000
+DTSTAMP:20150615T204225
+LOCATION:D130
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42779
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-09:00--42779
+SUMMARY:Go Bootcamp training (continued)
+DESCRIPTION:Presented by William Kennedy (Ardan Studios). The Go Bootcam
+ p is a two-day class that provides a comprehensive and idiomatic view of
+  the Go programming language. The class covers topics ranging from langu
+ age syntax, OOP, concurrency, channels, and testing to debugging and mor
+ e. The class is great for anyone interested in getting a jumpstart on le
+ arning Go, or wanting to understand more about the language and internal
+ s.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T170000
+DTSTART;TZID=US/Pacific:20150720T090000
+DTSTAMP:20150615T204140
+LOCATION:D133
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42797
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-09:00--42797
+SUMMARY:Programming with Swift: Solid fundamentals, advanced language fe
+ atures, and open source libraries
+DESCRIPTION:Presented by Jonathon Manning (Secret Lab Pty. Ltd.), Tim Nu
+ gent (lonely.coffee). If you're involved in writing anything to do with 
+ iPhones, iPads, or Macs, you need to get familiar with Swift. This train
+ ing will bring you from zero Swift knowledge all the way up to a deep un
+ derstanding of the subject.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T170000
+DTSTART;TZID=US/Pacific:20150721T090000
+DTSTAMP:20150615T204108
+LOCATION:D133
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42798
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-09:00--42798
+SUMMARY:Programming with Swift: Solid fundamentals, advanced language fe
+ atures, and open source libraries (continued)
+DESCRIPTION:Presented by Tim Nugent (lonely.coffee), Jonathon Manning (S
+ ecret Lab Pty. Ltd.), Paris Buttfield-Addison (Secret Lab Pty. Ltd.). If
+  you're involved in writing anything to do with iPhones, iPads, or Macs,
+  you need to get familiar with Swift. This training will bring you from 
+ zero Swift knowledge all the way up to a deep understanding of the subje
+ ct.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T170000
+DTSTART;TZID=US/Pacific:20150720T090000
+DTSTAMP:20150619T172931
+LOCATION:D134
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/43775
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-09:00--43775
+SUMMARY:Introduction to reactive programming: Hands-on with Akka, Java, 
+ and Scala
+DESCRIPTION:Presented by Duncan DeVore (Typesafe), Henrik Engstrom (Type
+ safe). Reactive programming represents a paradigm shift in the way we re
+ ason about system design by embracing the fundamentals of distributed co
+ mputing. It is this paradigm shift that in turn allows us to build appli
+ cations that "react" to environment changes such as failure and increase
+ d load through "self-healing" and elastic scaling.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T170000
+DTSTART;TZID=US/Pacific:20150721T090000
+DTSTAMP:20150619T172911
+LOCATION:D134
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/43777
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-09:00--43777
+SUMMARY:Introduction to reactive programming: Hands-on with Akka, Java, 
+ and Scala (continued)
+DESCRIPTION:Presented by Duncan DeVore (Typesafe), Henrik Engstrom (Type
+ safe). Reactive programming represents a paradigm shift in the way we re
+ ason about system design by embracing the fundamentals of distributed co
+ mputing. It is this paradigm shift that in turn allows us to build appli
+ cations that "react" to environment changes such as failure and increase
+ d load through "self-healing" and elastic scaling.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T170000
+DTSTART;TZID=US/Pacific:20150720T090000
+DTSTAMP:20150615T204253
+LOCATION:D135
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42635
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-09:00--42635
+SUMMARY:Go Bootcamp training
+DESCRIPTION:Presented by William Kennedy (Ardan Studios). The Go Bootcam
+ p is a two-day class that provides a comprehensive and idiomatic view of
+  the Go programming language. The class covers topics ranging from langu
+ age syntax, OOP, concurrency, channels, and testing to debugging and mor
+ e. The class is great for anyone interested in getting a jumpstart on le
+ arning Go, or wanting to understand more about the language and internal
+ s.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T170000
+DTSTART;TZID=US/Pacific:20150721T090000
+DTSTAMP:20150612T233725
+LOCATION:D135
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44067
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-09:00--44067
+SUMMARY:Microservices – Why, what and how to get there (continued)
+DESCRIPTION:Presented by Adrian Cockcroft (Battery Ventures). Adrian wil
+ l run a two day training class at OSCON. The class will go into more dep
+ th on the business need for speed that leads to microservices, and the c
+ haracteristics of existing microservice architectures. In addition there
+  will be a hands-on exercise to model your existing architecture, a futu
+ re state, and the step by step migration to get there.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T170000
+DTSTART;TZID=US/Pacific:20150720T090000
+DTSTAMP:20150608T223934
+LOCATION:Portland 256
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/43152
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-09:00--43152
+SUMMARY:Cultivate: Leading through culture (Presented by O'Reilly and Ne
+ w Relic)
+DESCRIPTION:We’re at the cusp of a new network age. The companies defini
+ ng it are fast, flat, and flexible. They devour data and focus obsessive
+ ly on their customers. “Analyze and adapt” is their Standing Operating P
+ rocedure. At Cultivate, they’ll tell you how they do it—and how you can,
+  too.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T170000
+DTSTART;TZID=US/Pacific:20150721T090000
+DTSTAMP:20150608T224017
+LOCATION:Portland 256
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/43171
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-09:00--43171
+SUMMARY:Cultivate: Leading through culture (continued)    (Presented by 
+ O'Reilly and New Relic)
+DESCRIPTION:We’re at the cusp of a new network age. The companies defini
+ ng it are fast, flat, and flexible. They devour data and focus obsessive
+ ly on their customers. “Analyze and adapt” is their Standing Operating P
+ rocedure. At Cultivate, they’ll tell you how they do it—and how you can,
+  too.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T190000
+DTSTART;TZID=US/Pacific:20150720T173000
+DTSTAMP:20150708T175817
+LOCATION:Portland Ballroom
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42873
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-17:30--42873
+SUMMARY:Ignite OSCON (Sponsored by Bluehost)
+DESCRIPTION:If you had five minutes on stage what would you say? What if
+  you only got 20 slides and they rotated automatically after 15 seconds?
+  Would you pitch a project? Launch a web site? Teach a hack? We’ll find 
+ out at our annual Ignite event at OSCON. Read more.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T092000
+DTSTART;TZID=US/Pacific:20150723T090500
+DTSTAMP:20150609T193800
+LOCATION:Portland Ballroom
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/43535
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-09:05--43535
+SUMMARY:Making architecture matter
+DESCRIPTION:Presented by Martin Fowler (ThoughtWorks). Software architec
+ ture is important, but shouldn't lead to bureaucratic burdens.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T094500
+DTSTART;TZID=US/Pacific:20150723T093000
+DTSTAMP:20150622T180340
+LOCATION:Portland Ballroom
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44868
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-09:30--44868
+SUMMARY:The making of a cloud native application platform
+DESCRIPTION:Presented by Sam Ramji (Cloud Foundry Foundation). It wasn’t
+  too long ago that artisans, bathed in the glow of molten metal, forged 
+ parts that would go on to make up bigger, more powerful machines. Today,
+  we call those artisans developers. Instead of metal, they use bits and 
+ bytes in the cloud to forge a modern application architecture.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T100500
+DTSTART;TZID=US/Pacific:20150723T094500
+DTSTAMP:20150707T200352
+LOCATION:Portland Ballroom
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44871
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-09:45--44871
+SUMMARY:On change-making at the largest public interest startup
+DESCRIPTION:Presented by Mikey Dickerson (Federal Government | United St
+ ates Digital Services Team). The Federal Government’s approach to techno
+ logy is outdated and maddening.  But this dysfunction didn’t come out of
+  thin air—it’s rooted in deep, structural realities.  Less than a year o
+ ld, the U.S. Digital Service is hacking bureaucracy and improving servic
+ es millions rely on every day.  Mikey will talk about how that work is g
+ oing and how the group is spurring change in the open.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T090500
+DTSTART;TZID=US/Pacific:20150723T090000
+DTSTAMP:20150615T201649
+LOCATION:Portland Ballroom
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44925
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-09:00--44925
+SUMMARY:Thursday opening welcome
+DESCRIPTION:Presented by Rachel Roumeliotis (O'Reilly Media), Matthew Mc
+ Cullough (GitHub), Sarah Novotny (NGINX). Program dhairs Rachel Roumelio
+ tis, Sarah Novotny, and Matthew McCullough open the second day of keynot
+ es.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150724T090500
+DTSTART;TZID=US/Pacific:20150724T090000
+DTSTAMP:20150702T161718
+LOCATION:Portland Ballroom
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44936
+UID:http://www.oscon.com/open-source-2015--s2015-07-24-09:00--44936
+SUMMARY:Friday opening welcome
+DESCRIPTION:Presented by Matthew McCullough (GitHub), Sarah Novotny (NGI
+ NX), Rachel Roumeliotis (O'Reilly Media). Program chairs Matthew McCullo
+ ugh, Sarah Novotny, and Rachel Roumeliotis open the third day of keynote
+ s.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150724T092000
+DTSTART;TZID=US/Pacific:20150724T090500
+DTSTAMP:20150617T204453
+LOCATION:Portland Ballroom
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44870
+UID:http://www.oscon.com/open-source-2015--s2015-07-24-09:05--44870
+SUMMARY:Hacking Conway's Law
+DESCRIPTION:Presented by Raffi Krikorian (Uber Advanced Technologies Cen
+ ter). Re-architecting a system is wrought with problems. However, what w
+ e can sometimes forget is the most important aspect of any project: the 
+ team! Your team, who miraculously survives these projects, has to contin
+ ue to change with your business and your technology! But, don't fret, we
+  can architect our way towards this way of thinking!
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150724T094500
+DTSTART;TZID=US/Pacific:20150724T093000
+DTSTAMP:20150615T180916
+LOCATION:Portland Ballroom
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44534
+UID:http://www.oscon.com/open-source-2015--s2015-07-24-09:30--44534
+SUMMARY:Undefinable me: The story of a 13-year-old girl from the inner c
+ ity who codes
+DESCRIPTION:Presented by Keila Banks (Student). Keila Banks is a 13-year
+ -old African-American girl in the inner city - her talk will be about he
+ r story and how people around the world can do coding and computer stuff
+  at any age, with just a little motivation.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T090500
+DTSTART;TZID=US/Pacific:20150722T090000
+DTSTAMP:20150615T200819
+LOCATION:Portland Ballroom
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44994
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-09:00--44994
+SUMMARY:Wednesday opening welcome
+DESCRIPTION:Presented by Sarah Novotny (NGINX), Rachel Roumeliotis (O'Re
+ illy Media), Matthew McCullough (GitHub). Program chairs Sarah Novotny, 
+ Rachel Roumeliotis, and Matthew McCullough open the first day of keynote
+ s.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T093000
+DTSTART;TZID=US/Pacific:20150722T092000
+DTSTAMP:20150615T185738
+LOCATION:Portland Ballroom
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44737
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-09:20--44737
+SUMMARY:Open Source Lynchpins in 2015: the Anti-Venom to Vendor Lock-in
+DESCRIPTION:Presented by Angel Diaz (IBM). Dr. Angel Diaz, IBM VP Cloud 
+ Architecture & Technology, provides a retrospective on the evolution of 
+ open source from the “old ways” in the early years to today’s new model 
+ of “code, community and culture” which brings together users and develop
+ ers to accelerate innovation.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T094500
+DTSTART;TZID=US/Pacific:20150722T093000
+DTSTAMP:20150615T203019
+LOCATION:Portland Ballroom
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44992
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-09:30--44992
+SUMMARY:How Facebook open sources at scale
+DESCRIPTION:Presented by James Pearce (Facebook). Ship a lot, or ship fa
+ st? These goals may seem to be at odds, but it's actually possible to ha
+ ve large, diverse portfolios of open source projects and maintain a fast
+ -moving, iterative approach. In this talk, Facebook's open source lead J
+ ames Pearce will discuss how Facebook is able to ship open source produc
+ ts twice a week and maintain quality, size, and speed.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T100500
+DTSTART;TZID=US/Pacific:20150722T095500
+DTSTAMP:20150615T185820
+LOCATION:Portland Ballroom
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44917
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-09:55--44917
+SUMMARY:The future is awesome (and what you can do about it)
+DESCRIPTION:Presented by Paul Fenwick (Perl Training Australia). The 21s
+ t century is a time with an unprecendented expansion of ideas, culture, 
+ technology, information, and global justice. Compared to any ther point 
+ in history, humans are *flourishing*. Yet the way in which we think abou
+ t the world—and our shared future in it—has not accelerated at the same 
+ pace. Join us to find out why the future is awesome, and what you can do
+  about it.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T095500
+DTSTART;TZID=US/Pacific:20150722T094500
+DTSTAMP:20150622T190249
+LOCATION:Portland Ballroom
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44895
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-09:45--44895
+SUMMARY:They're here. Now what?
+DESCRIPTION:Presented by Allison Randal (Hewlett-Packard). The early day
+ s of the open source movement were all about creating an approachable on
+ -ramp to software freedom. We focused strongly on practical benefits of 
+ free software and refined the message, hoping to help the professional s
+ oftware sector better understand. We succeeded but success in our first 
+ goal doesn't mean we're done, it means we're due to clearly define the n
+ ext phase of open source.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T092000
+DTSTART;TZID=US/Pacific:20150722T090500
+DTSTAMP:20150706T000125
+LOCATION:Portland Ballroom
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44937
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-09:05--44937
+SUMMARY:Making things open
+DESCRIPTION:Presented by Hadley Beeman (U.K. Government | W3C). Openness
+  is good for Government on many levels — open data, open standards, open
+  source, open markets. Where we set the way we work in Government, it’s 
+ important to let industry determine the technical standards we work with
+ .
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150724T093000
+DTSTART;TZID=US/Pacific:20150724T092000
+DTSTAMP:20150707T220801
+LOCATION:Portland Ballroom
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/45335
+UID:http://www.oscon.com/open-source-2015--s2015-07-24-09:20--45335
+SUMMARY:From analog to difital and back
+DESCRIPTION:Presented by George Dyson. Nature uses digital coding for re
+ plication, storage, and error correction, but relies on analog coding fo
+ r control. Technology will follow. We are starting to treat streams of b
+ its the way vacuum tubes treat streams of electrons, implementing analog
+  processing upon a digital substrate, the same way digital processing wa
+ s implemented using analog components, the first time around.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T093000
+DTSTART;TZID=US/Pacific:20150723T092000
+DTSTAMP:20150706T232454
+LOCATION:Portland Ballroom
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/45365
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-09:20--45365
+SUMMARY:Keynote by Danese Cooper
+DESCRIPTION:Presented by Danese Cooper (PayPal). Details to come
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T203000
+DTSTART;TZID=US/Pacific:20150720T190000
+DTSTAMP:20150604T162753
+LOCATION:TBD
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44726
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-19:00--44726
+SUMMARY:Monday BoFs
+DESCRIPTION:Birds of a Feather (BoF) sessions provide face to face expos
+ ure to those interested in the same projects and concepts. BoFs can be o
+ rganized for individual projects or broader topics (best practices, open
+  data, standards). BoFs are entirely up to you. We post your topic and p
+ rovide the space and time. You provide the engaging topic.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T220000
+DTSTART;TZID=US/Pacific:20150722T203000
+DTSTAMP:20150604T163316
+LOCATION:TBD
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44727
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-20:30--44727
+SUMMARY:Wednesday BoFs
+DESCRIPTION:Birds of a Feather (BoF) sessions provide face to face expos
+ ure to those interested in the same projects and concepts. BoFs can be o
+ rganized for individual projects or broader topics (best practices, open
+  data, standards). BoFs are entirely up to you. We post your topic and p
+ rovide the space and time. You provide the engaging topic.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T220000
+DTSTART;TZID=US/Pacific:20150723T200000
+DTSTAMP:20150604T163425
+LOCATION:TBD
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44728
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-20:00--44728
+SUMMARY:Thursday BoFs
+DESCRIPTION:Birds of a Feather (BoF) sessions provide face to face expos
+ ure to those interested in the same projects and concepts. BoFs can be o
+ rganized for individual projects or broader topics (best practices, open
+  data, standards). BoFs are entirely up to you. We post your topic and p
+ rovide the space and time. You provide the engaging topic.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T203000
+DTSTART;TZID=US/Pacific:20150722T190000
+DTSTAMP:20150622T160304
+LOCATION:Leftbank Annex
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44708
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-19:00--44708
+SUMMARY:5 Years of OpenStack
+DESCRIPTION:It’s time to celebrate! Are you planning to attend OSCON? Th
+ en be sure to join the OpenStack Foundation on Wednesday evening, July 2
+ 2nd 7:00-8:30pm at the Leftbank Annex located at 101 North Weidler Stree
+ t, Portland Oregon 97227, to celebrate five years of OpenStack.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T180000
+DTSTART;TZID=US/Pacific:20150721T170000
+DTSTAMP:20150707T203347
+LOCATION:Expo Hall
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42523
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-17:00--42523
+SUMMARY:Expo Hall Opening Reception (Sponsored by PayPal)
+DESCRIPTION:Grab a drink and kick off OSCON by meeting and mingling with
+  exhibitors and fellow attendees.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T190000
+DTSTART;TZID=US/Pacific:20150722T174000
+DTSTAMP:20150708T200051
+LOCATION:Expo Hall
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42522
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-17:40--42522
+SUMMARY:Booth Crawl / Ask Me Anything About chats
+DESCRIPTION:Quench your thirst with vendor-hosted libations and snacks w
+ hile you check out all the cool stuff in the expo hall.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T104000
+DTSTART;TZID=US/Pacific:20150722T101000
+DTSTAMP:20150708T200320
+LOCATION:Expo Hall
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/45364
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-10:10--45364
+SUMMARY:Morning Break sponsored by Capitol One / Ask Me Anything About c
+ hats
+DESCRIPTION:Join O'Reilly speakers for informal question and answer sess
+ ions.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T134000
+DTSTART;TZID=US/Pacific:20150722T121000
+DTSTAMP:20150708T200248
+LOCATION:Expo Hall
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/45366
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-12:10--45366
+SUMMARY:Wednesday Lunch / Ask Me Anything About chats
+DESCRIPTION:Join O'Reilly speakers for informal question and answer sess
+ ions.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150722T161000
+DTSTART;TZID=US/Pacific:20150722T151000
+DTSTAMP:20150708T200235
+LOCATION:Expo Hall
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/45367
+UID:http://www.oscon.com/open-source-2015--s2015-07-22-15:10--45367
+SUMMARY:Afternoon Break Sponsored by SoftLayer / Ask Me Anything About c
+ hats
+DESCRIPTION:Join O'Reilly speakers for informal question and answer sess
+ ions.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T104000
+DTSTART;TZID=US/Pacific:20150723T101000
+DTSTAMP:20150708T200219
+LOCATION:Expo Hall
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/45369
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-10:10--45369
+SUMMARY:Morning Break Sponsored by New Relic / Ask Me Anything About cha
+ ts
+DESCRIPTION:Join O'Reilly speakers for informal question and answer sess
+ ions.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T134000
+DTSTART;TZID=US/Pacific:20150723T121000
+DTSTAMP:20150708T200201
+LOCATION:Expo Hall
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/45370
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-12:10--45370
+SUMMARY:Thursday Lunch / Ask Me Anything About chats
+DESCRIPTION:Join O'Reilly speakers for informal question and answer sess
+ ions.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T161000
+DTSTART;TZID=US/Pacific:20150723T151000
+DTSTAMP:20150708T200141
+LOCATION:Expo Hall
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/45372
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-15:10--45372
+SUMMARY:Afternoon Break Sponsored by Google / Ask Me Anything About chat
+ s
+DESCRIPTION:Join O’Reilly speakers for informal question and answer sess
+ ions.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150720T230000
+DTSTART;TZID=US/Pacific:20150720T203000
+DTSTAMP:20150626T044738
+LOCATION:Ankeny Plaza Pavilion
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/42524
+UID:http://www.oscon.com/open-source-2015--s2015-07-20-20:30--42524
+SUMMARY:OSCON 5K Glow Run and After Party (Sponsored by IBM Cloudant, Mi
+ crosoft and OpenStack)
+DESCRIPTION:The OSCON 5k Glow Run/Walk and Finish Line Festival is back.
+  This year expect more glow, a cool new venue, special effects, frothier
+  foam dance floor, beer, and prizes. Same great views and scenic course 
+ around the Waterfront Loop, great dance music, beer garden, and food car
+ t.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T200000
+DTSTART;TZID=US/Pacific:20150721T180000
+DTSTAMP:20150630T181624
+LOCATION:Hall B
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44869
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-18:00--44869
+SUMMARY:OSCON Attendee Party (Co-sponsored by Aerospike, HP Helion and W
+ ipro)
+DESCRIPTION:We’ve always suspected our attendees possess super powers an
+ d the OSComic attendee party is the perfect place to prove it. You can t
+ est your super skills in the Superhero Training Center, then lounge like
+  a hero and power up with super foods or kick back like a villain with s
+ inful snacks. Come as you are and create your own crusader persona or fe
+ el free to don your own accessories in advance.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150721T220000
+DTSTART;TZID=US/Pacific:20150721T200000
+DTSTAMP:20150623T040142
+LOCATION:Puppet Labs Headquarters
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/44631
+UID:http://www.oscon.com/open-source-2015--s2015-07-21-20:00--44631
+SUMMARY:Puppet Labs Party
+DESCRIPTION:Join Puppet Labs for our OSCON “Open” House Party! We are ex
+ cited to open our doors to all our OSCON and Puppet Labs Friends.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20150723T200000
+DTSTART;TZID=US/Pacific:20150723T180000
+DTSTAMP:20150707T211254
+LOCATION:Spirit of 77 Bar & Lounge
+URL:http://www.oscon.com/open-source-2015/public/schedule/detail/45347
+UID:http://www.oscon.com/open-source-2015--s2015-07-23-18:00--45347
+SUMMARY:@Walmart Labs Tech Mixer
+DESCRIPTION:Come join our Walmart eCommerce CTO and Engineering members 
+ for an evening full of free bites + brews, mingling and networking on Th
+ ursday, July 23rd, 6pm-8pm at Spirit of 77 Bar (across from the conventi
+ on center)
+END:VEVENT
+END:VCALENDAR
