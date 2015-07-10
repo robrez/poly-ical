@@ -26,6 +26,7 @@
     "type": "git",
     "url": "git://github.com/robrez/poly-ical.git"
   },
+  "homepage": "https://github.com/robrez/poly-ical",
   "dependencies": {
     "polymer": "polymer/polymer#^1.0.0",
     "iron-ajax": "PolymerElements/iron-ajax#^1.0.0"
