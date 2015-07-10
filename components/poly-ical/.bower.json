@@ -1,0 +1,48 @@
+{
+  "name": "poly-ical",
+  "authors": [
+    "Rob Resendez <resendez.java@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "keywords": [
+    "web-components",
+    "web-component",
+    "poly-ical",
+    "ical",
+    "ics"
+  ],
+  "main": [
+    "poly-ical.html"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/robrez/poly-ical.git"
+  },
+  "homepage": "https://github.com/robrez/poly-ical",
+  "dependencies": {
+    "polymer": "polymer/polymer#^1.0.0",
+    "iron-ajax": "PolymerElements/iron-ajax#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "iron-test-helpers": "PolymerElements/iron-test-helpers#^1.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  },
+  "_release": "59f9b2ec6b",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "59f9b2ec6b38e15f44cf6e7b1b34ade046577415"
+  },
+  "_source": "git://github.com/robrez/poly-ical.git",
+  "_target": "master",
+  "_originalSource": "robrez/poly-ical",
+  "_direct": true
+}

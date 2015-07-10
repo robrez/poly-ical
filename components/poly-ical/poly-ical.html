@@ -1,0 +1,184 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../iron-ajax/iron-ajax.html">
+<link rel="import" href="ical-js-import.html">
+
+<!--
+The `poly-ical` is a molecule that uses ical.js to produce JSON using ICAL data.
+The ICAL data is fetched using AJAX and piped through ical.js.
+
+    <poly-ical url="http://somewhere.com/icalendpoint.ics" calendar="{{calendar}}"></poly-ical>
+
+The ajax request is sent whenever the `url` changes.
+
+The results from ical.js are typically a nested array structure.
+See: https://tools.ietf.org/html/draft-ietf-jcardcal-jcal-10
+
+Instead, poly-ical produces json that looks something like this:
+
+    {
+      properties: { 
+        { version: "2.0", prodid: "Blah" }
+      },
+
+      events: [
+        {
+          dtstart: { tzid: "US/Pacific", value: "2015-07-09T09:30:00" }
+          description: "An event is happening",
+          uid: "7"
+        },
+      ]
+    }
+
+@demo demo/index.html
+-->
+
+<dom-module id="poly-ical">
+  <style>
+    :host {
+      display: none;
+    }
+  </style>
+
+  <template>
+    <iron-ajax
+      id="ajax"
+      handle-as="text"
+      on-response="_handleResponse"
+      on-error="_handleError"></iron-ajax>
+
+  </template>
+
+  <script>
+    Polymer({
+
+      is: "poly-ical",
+
+
+      /**
+       * Fired on AJAX error
+       *
+       * @event error
+       */
+
+      /**
+       * Fired when JSON calendar is pared from ICAL
+       *
+       * @event parsed
+       */
+
+      properties: {
+
+        /**
+         * The URL target hosting the ICAL data
+         */
+        url: {
+          type: String,
+          observer: '_urlChanged'
+        },
+
+        /**
+         * The JSON object resulting from parsed ICAL data
+         */
+        calendar: {
+          type: Object,
+          notify: true
+        },
+
+        lastError: {
+          type: Object,
+          notify: true
+        },
+
+        /**
+         * Debounce duration
+         */
+        debounceDuration: {
+          type: Number,
+          value: 250
+        },
+
+        /**
+         * Log results to console
+         */
+        verbose: {
+          type: Boolean,
+          value: false
+        }
+ 
+      },
+
+      _urlChanged: function(newValue, oldValue) {
+        var ajax = this.$.ajax;
+        if(ajax && newValue && newValue !== oldValue) {
+          ajax.url = newValue;
+          if(ajax.loading) {
+            ajax.discardRequest(ajax.lastRequest);
+          }
+          if(this.debounceDuration > 0) {
+            this.debounce('request', this._generateRequest, this.debounceDuration);
+          } else {
+            ajax.generateRequest();
+          }
+        }
+      },
+
+      _generateRequest() {
+        var ajax = this.$.ajax;
+        if(ajax) {
+          ajax.generateRequest();
+        }
+      },
+
+      _handleError: function(e, detail, sender) {
+        if(this.verbose) {
+          console.log(detail.error);
+        }
+        this.set('lastError', detail);
+        this.set('calendar', null);
+      },
+
+      _handleResponse: function(e, detail, sender) {
+        var jcalData = ICAL.parse(detail.response);
+        var events = [];
+        var calProps = {};
+
+        //Properties are stored in element 1
+        jcalData[1].forEach(function(prop) {
+          calProps[Polymer.CaseMap.dashToCamelCase(prop[0])] = prop[3];
+        });
+
+        //Components are stored in element 1
+        jcalData[2].forEach(function(item) {
+          if(item[0] === "vevent") {
+            var event = {};
+            var props = item[1];
+            props.forEach(function(prop) {
+              var dataType = prop[2];
+              var value = prop[3];
+              if(dataType === 'date-time' || dataType == 'date') {
+                var v = { value: value };
+                if(prop[1].tzid) {
+                  v.tzid = prop[1].tzid;
+                }
+                event[prop[0]] = v;
+              } else {
+                event[prop[0]] = prop[3];
+              }
+            });
+            events.push(event);
+          }
+        });
+
+        var result = {properties: calProps, events: events};
+        this.set('calendar', result);
+        this.fire('parsed', result);
+        if(this.verbose) {
+          console.log(result);
+        }
+        this.set('lastError', null);
+      }
+
+    });
+  </script>
+
+</dom-module>

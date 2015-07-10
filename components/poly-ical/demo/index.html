@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+  <head>
+    <title>poly-ical demo</title>
+
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Inconsolata:400,700">
+    <link rel="import" href="../poly-ical.html">
+
+    <style is="custom-style">
+  
+    body {
+      font-family: 'Roboto', 'Noto', sans-serif;
+      font-size: 14px;
+      color: rgba(0,0,0,.87);
+      margin: 0;
+      padding: 0;
+      background-color: #eee;
+    }
+
+    .layout.horizontal {
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -ms-flex-direction: row;
+      -webkit-flex-direction: row;
+      flex-direction: row;
+    }
+
+    .layout.center {
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+    .layout.center-justified {
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+    }
+
+    .content {
+      padding: 24px;
+    }
+  
+    .card {
+      background-color: white;
+      padding: 24px;
+      margin: 24px;
+      min-width: 200px;
+      border-radius: 2px;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+              0 1px 5px 0 rgba(0, 0, 0, 0.12),
+              0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    }
+
+    .event {
+      padding: 16px;
+    }
+
+    .headline {
+      font-size: 24px;
+      font-weight: 400;
+      letter-spacing: -.012em;
+      line-height: 32px;
+    }
+ 
+    .title {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 28px;
+    }
+ 
+    .toolbar {
+      padding-left: 24px;
+      height: 72px;
+      background:  #4285f4;
+      color: #fff;
+      font-size: 34px;
+      font-weight: 400;
+      letter-spacing: -.01em;
+      line-height: 40px;
+    }
+
+    .error {
+      padding: 8px;
+      color: #c53929;
+    }
+
+    .label {
+      min-width: 72px;
+    }
+    </style>
+
+  </head>
+  <body>
+    <template is="dom-bind" id="demo">
+      <div class="toolbar layout horizontal center">ICAL to JSON</div>
+
+      <div class="content center-justified layout">
+  
+
+        <poly-ical
+            id="ical"
+            url="[[url]]"
+            last-error="{{lastError}}"
+            debounce-duration="500"
+            verbose="true"
+            calendar="{{calendar}}">
+        </poly-ical>
+
+        <div class="card">
+          <span class="headline">ICAL Endpoint</span>
+          <div>{{url}}</div>
+          <div class="error">{{lastError.error}}</div>
+        </div>
+
+        <div class="card">
+          <div class="headline">{{calendar.properties.xWrCalname}}</div>
+          <div>{{calendar.properties.version}}</div>
+        </div>
+
+        <div class="card">
+          <template is="dom-repeat" items="[[calendar.events]]" as="event">
+            <div class="event">
+              <div class="title">[[event.summary]]</div>
+              <div class="layout horizontal">
+                <span class="label">Start: &nbsp; </span>
+                <span>[[event.dtstart.value]]</span>
+              </div>
+              <div class="layout horizontal">
+                <span class="label">End: &nbsp; </span>
+                <span>[[event.dtend.value]]</span>
+              </div>
+              <div hidden$="[[!event.url]]" class="layout horizontal">
+                <span class="url">URL: &nbsp; </span>
+                <a href="[[event.url]]">[[event.url]]</a>
+              </div>
+            </div>
+          </template>
+        </div>
+      </div>
+    </template>
+  </body>
+
+
+  <script>
+
+  (function(document) {
+    'use strict';
+
+    window.addEventListener('WebComponentsReady', function() {
+
+      var demo = document.querySelector('#demo');
+      demo.url = "oscon.ics";
+
+      var ical = document.querySelector('#ical');
+      ical.addEventListener("error", function(e) { console.log(e); });
+    });
+
+  })(document);
+
+  </script>
+</html>
