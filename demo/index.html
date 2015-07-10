@@ -8,8 +8,8 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
 
     <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
-    <link rel="import" href="../../paper-styles/paper-styles.html">
-    <link rel="import" href="../../paper-input/paper-input.html">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Inconsolata:400,700">
     <link rel="import" href="../poly-ical.html">
 
     <style is="custom-style">
@@ -17,9 +17,31 @@
     body {
       font-family: 'Roboto', 'Noto', sans-serif;
       font-size: 14px;
+      color: rgba(0,0,0,.87);
       margin: 0;
       padding: 0;
       background-color: #eee;
+    }
+
+    .layout.horizontal {
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -ms-flex-direction: row;
+      -webkit-flex-direction: row;
+      flex-direction: row;
+    }
+
+    .layout.center {
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+    .layout.center-justified {
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
     }
 
     .content {
@@ -29,10 +51,12 @@
     .card {
       background-color: white;
       padding: 24px;
-      margin-right: 24px;
-      margin-bottom: 24px;
+      margin: 24px;
       min-width: 200px;
-      @apply(--shadow-elevation-2dp);
+      border-radius: 2px;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+              0 1px 5px 0 rgba(0, 0, 0, 0.12),
+              0 3px 1px -2px rgba(0, 0, 0, 0.2);
     }
 
     .event {
@@ -40,24 +64,32 @@
     }
 
     .headline {
-      @apply(--paper-font-headline);
+      font-size: 24px;
+      font-weight: 400;
+      letter-spacing: -.012em;
+      line-height: 32px;
     }
-  
+ 
     .title {
-      @apply(--paper-font-title);
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 28px;
     }
-  
+ 
     .toolbar {
       padding-left: 24px;
       height: 72px;
-      background: var(--default-primary-color);
-      color: var(--text-primary-color);
-      @apply(--paper-font-display1);
+      background:  #4285f4;
+      color: #fff;
+      font-size: 34px;
+      font-weight: 400;
+      letter-spacing: -.01em;
+      line-height: 40px;
     }
 
     .error {
       padding: 8px;
-      color: var(--paper-red-700);
+      color: #c53929;
     }
 
     .label {
@@ -83,8 +115,8 @@
         </poly-ical>
 
         <div class="card">
-          <span>ICAL Endpoint</span>
-          <paper-input label="url" value="{{url}}"></paper-input>
+          <span class="headline">ICAL Endpoint</span>
+          <div>{{url}}</div>
           <div class="error">{{lastError.error}}</div>
         </div>
 
